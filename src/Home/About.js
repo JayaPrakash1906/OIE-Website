@@ -5,9 +5,11 @@ import img2 from '../Assets/about middle.jpg';
 import img3 from '../Assets/about img.jpg';
 import img4 from "../Assets/Nandhini.jpeg";
 import img5 from '../Assets/prajagopal.jpg'
-import {  FaHotTubPerson, FaPerson, FaPersonDotsFromLine, FaRegLightbulb } from 'react-icons/fa6';
-import { FaIdeal, FaThinkPeaks } from 'react-icons/fa';
+import {  FaHotTubPerson, FaPerson, FaPersonDotsFromLine, FaRegLightbulb, FaSeedling } from 'react-icons/fa6';
+import { FaBeer, FaIdeal, FaThinkPeaks } from 'react-icons/fa';
 import Footer from '../Components/Footer';
+import { GiLifeSupport, GiNestEggs, GiPlantSeed } from 'react-icons/gi';
+import { CgSupport } from 'react-icons/cg';
 
 
 const About  = () => {
@@ -72,7 +74,7 @@ const About  = () => {
     
                 </div>
                 <div className='ml-2'>
-                <FaThinkPeaks size={55} />
+                < GiPlantSeed size={55} />
                 <h1 className='text-3xl mt-4 font-dmsans'>Pre-Incubate</h1>
                 <ul className="list-disc pl-5 mt-4 font-dmsans">
                   <li>Nirmaan: A pre-incubation initiative by IITM to support and nurture early-stage ideas and entrepreneurs.</li>
@@ -81,7 +83,7 @@ const About  = () => {
     
                 </div>
                 <div className='ml-2'>
-                <FaHotTubPerson size={55} />
+                <FaSeedling size={55} />
                 <h1 className='text-3xl mt-4'  >Incubate</h1>
                 <ul className="list-disc pl-5 mt-4 font-dmsans">
                   <li>RTBI (Rural Technology and <br/> Business Incubator)</li>
@@ -94,7 +96,7 @@ const About  = () => {
     
                 </div>
                 <div className='ml-2'>
-                <FaPersonDotsFromLine size={55} />
+                <CgSupport size={55} />
                 <h1 className='text-3xl mt-4' >Support</h1>
                 <ul className="list-disc pl-5 mt-4 font-dmsans ">
                   <li>IITMEF (IIT Madras <br/> Entrepreneurship Forum)</li>

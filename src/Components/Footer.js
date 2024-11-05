@@ -36,10 +36,10 @@ const Footer = () => {
                             <div className="flex flex-col items-center  text-center">
                                     <h3 className="font-semibold mt-16 mb-3 text-md text-white font-dmsans">Quick Links</h3>
                                 <div className="flex flex-col items-start text-sm text-white font-dmsans">
-                                    <p>Home</p>
-                                    <p>About</p>
-                                    <p>News</p>
-                                    <p>Contact us</p>
+                                    <button  onClick={() => (window.location.href = "/")}>Home</button>
+                                    <button  onClick={() => (window.location.href = "/about_us")}>About</button>
+                                    <button  onClick={() => (window.location.href = "/news")}>News</button>
+                                    <button  onClick={() => (window.location.href = "/contact")}>Contact us</button>
                                 </div>
                             </div>
 
