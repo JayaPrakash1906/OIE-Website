@@ -106,31 +106,32 @@ const Home = () => {
       </div>
 
       <div className="mt-16 px-4 md:mt-32 md:px-32">
-        <div className="md:grid md:grid-cols-2 md:gap-10">
-          <div className="border-2 border-blue-600 rounded-3xl p-4">
-            <div className="font-bold text-black text-2xl md:text-3xl mt-2">
-              VISION
-            </div>
-            <p className="mt-4 md:mt-6 font-dmsans text-lg md:text-xl">
-              To deliver administrative support to innovation and
-              entrepreneurship activities that include outreach, fundraising,
-              project management, IP, and funding.
-            </p>
-          </div>
-
-          <div className="border-2 border-blue-600 rounded-3xl p-4 mt-6 md:mt-0">
-            <div className="font-bold text-black text-2xl md:text-3xl mt-2">
-              MISSION
-            </div>
-            <p className="mt-4 font-dmsans text-lg md:text-xl">
-              To provide training in entrepreneurship through structured
-              programs and guidance through experienced and visionary leadership
-              to coordinate events, visits, workshops, and external programs,
-              generating leads for future advancements.
-            </p>
-          </div>
-        </div>
+  <div className="md:grid md:grid-cols-2 md:gap-10">
+    <div className="border-2 border-blue-600 rounded-3xl p-4 transition duration-300 transform hover:scale-105 hover:shadow-lg">
+      <div className="font-bold text-black text-2xl md:text-3xl mt-2">
+        VISION
       </div>
+      <p className="mt-4 md:mt-6 font-dmsans text-lg md:text-xl">
+        To deliver administrative support to innovation and
+        entrepreneurship activities that include outreach, fundraising,
+        project management, IP, and funding.
+      </p>
+    </div>
+
+    <div className="border-2 border-blue-600 rounded-3xl p-4 mt-6 md:mt-0 transition duration-300 transform hover:scale-105 hover:shadow-lg">
+      <div className="font-bold text-black text-2xl md:text-3xl mt-2">
+        MISSION
+      </div>
+      <p className="mt-4 font-dmsans text-lg md:text-xl">
+        To provide training in entrepreneurship through structured
+        programs and guidance through experienced and visionary leadership
+        to coordinate events, visits, workshops, and external programs,
+        generating leads for future advancements.
+      </p>
+    </div>
+  </div>
+</div>
+
 
       <div className="mt-16 bg-gray-100">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-16 md:mt-32 px-8 md:px-32">
