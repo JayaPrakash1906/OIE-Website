@@ -8,7 +8,7 @@ const Footer = () => {
       <div className='bg-blue-500'>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3'>
           <div className='flex justify-center sm:justify-start'>
-            <img className="h-20 sm:h-30 m-8 sm:m-16" src={img1} alt="cfi logo" />
+            <img className="h-30 sm:h-30 m-8 sm:m-16" src={img1} alt="cfi logo" />
           </div>
 
           <div className="flex flex-col items-center sm:items-start text-center sm:text-left">
@@ -31,7 +31,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex flex-col items-center sm:items-start text-center sm:text-left">
+          <div className="flex flex-col md:items-center sm:items-start text-center sm:text-left">
             <h3 className="font-semibold mt-8 sm:mt-16 mb-3 text-md text-white font-dmsans">Quick Links</h3>
             <div className="flex flex-col items-center sm:items-start text-sm text-white font-dmsans space-y-1">
               <button onClick={() => (window.location.href = "/")}>Home</button>
@@ -41,7 +41,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex flex-col items-center sm:items-start text-center sm:text-left">
+          <div className="flex flex-col md:items-center sm:items-start text-center sm:text-left">
             <h3 className="font-semibold mt-8 sm:mt-16 mb-3 text-md text-white font-dmsans">Connect Us</h3>
             <div className="flex flex-col items-center sm:items-start text-md text-white font-dmsans space-y-2">
               <a href='https://www.linkedin.com/company/office-of-innovation-and-entrepreneurship/posts/?feedView=all'>
