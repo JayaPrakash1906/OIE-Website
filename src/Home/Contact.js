@@ -10,7 +10,7 @@ const Contact = () => {
       <div className="mt-[150px] bg-gray-200 p-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="flex items-center justify-center md:items-end md:justify-end md:mr-10 mb-4 md:mb-0">
-            <img src={Img1} className="h-[250px] md:h-[500px] w-full object-cover" alt="Image1" />
+            <img src={Img1} className="sm:h-[250px] md:h-[630px] w-full object-cover" alt="Image1" />
           </div>
           <div className="px-4 md:px-16">
             <div className="border bg-blue-200 rounded-xl p-4 md:p-6">
