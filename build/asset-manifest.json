@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.551d6c5e.css",
+    "main.js": "/static/js/main.c6f476bd.js",
+    "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
+    "static/media/iitm logo.png": "/static/media/iitm logo.0105d85b3475030de3d8.png",
+    "static/media/news1.png": "/static/media/news1.6abc3010515db90e2d6c.png",
+    "static/media/nirmaan logo.png": "/static/media/nirmaan logo.8b8518964b925a2a2d57.png",
+    "static/media/news3.png": "/static/media/news3.fd074fb8273fcf5aebda.png",
+    "static/media/news2.png": "/static/media/news2.0733aea1455cd7ffdaf9.png",
+    "static/media/Nandhini.jpeg": "/static/media/Nandhini.2b5be7ce3ba3bb1f2e48.jpeg",
+    "static/media/OIE Logo.png": "/static/media/OIE Logo.4a572bba601f54432037.png",
+    "static/media/prajagopal.jpg": "/static/media/prajagopal.5d9a851bb9139167c41b.jpg",
+    "static/media/Sudha&Shankar.jpg": "/static/media/Sudha&Shankar.21982b0a89377f2f7887.jpg",
+    "static/media/Nirmaan image.jpg": "/static/media/Nirmaan image.fb1ce63135feab70248a.jpg",
+    "static/media/about middle.jpg": "/static/media/about middle.ca22a17ca1562b80d6e3.jpg",
+    "static/media/Director.jpg": "/static/media/Director.a2831021a59f9914dc60.jpg",
+    "static/media/about img.jpg": "/static/media/about img.dac5b7be0a17f106e0da.jpg",
+    "static/media/home_img5.jpg": "/static/media/home_img5.e483a917df300d06eed1.jpg",
+    "static/media/home_img1.jpg": "/static/media/home_img1.89db6cfe4602f12b07d6.jpg",
+    "static/media/home_img8.jpg": "/static/media/home_img8.93c38f1ed9afedea1c33.jpg",
+    "static/media/home_img2.jpg": "/static/media/home_img2.483cc305357b68974c38.jpg",
+    "static/media/cfi image.jpg": "/static/media/cfi image.8b13a295db5d01c30a09.jpg",
+    "static/media/home_img6.jpg": "/static/media/home_img6.fe83fd7d410aabc0ae3d.jpg",
+    "static/media/Tech_Meet.jpg": "/static/media/Tech_Meet.361530c7ad4b489fd42c.jpg",
+    "static/media/home_img7.jpg": "/static/media/home_img7.383894ba77712365eb2e.jpg",
+    "static/media/OIE Logo footer.jpg": "/static/media/OIE Logo footer.e71a1956b2cf35f14702.jpg",
+    "static/media/home_img3.jpg": "/static/media/home_img3.885a7a0ea1931baf3f17.jpg",
+    "static/media/home_img4.jpg": "/static/media/home_img4.d5a385eb83698657e317.jpg",
+    "index.html": "/index.html",
+    "main.551d6c5e.css.map": "/static/css/main.551d6c5e.css.map",
+    "main.c6f476bd.js.map": "/static/js/main.c6f476bd.js.map",
+    "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.551d6c5e.css",
+    "static/js/main.c6f476bd.js"
+  ]
+}
