@@ -22,96 +22,96 @@ const About  = () => {
       About Us
     </div>
   </div>
-  <p className="text-md mt-8 font-dmsans text-center">
+  <p className="text-md mt-8 font-dmsans text-center px-4 sm:px-8">
     The Office of Innovation & Entrepreneurship (OIE) at IIT Madras aims to
-    coordinate all<br />
+    coordinate all<br className="hidden sm:block" />
     innovation and entrepreneurship activities and support the development of
-    startups that can<br />
-    grow and make a positive impact. It includes the centre of Innovation (CFI)
-    and Nirmaan,<br />
+    startups that can<br className="hidden sm:block" />
+    grow and make a positive impact. It includes the Centre of Innovation (CFI)
+    and Nirmaan,<br className="hidden sm:block" />
     which helps startups in their early stages. The OIE is located in the Sudha
-    & Shankar <br />
+    & Shankar <br className="hidden sm:block" />
     Innovation Hub, inaugurated by the Honorable Vice-President of India, Shri
-    Jagdeep<br />
+    Jagdeep<br className="hidden sm:block" />
     Dhankhar, on 28th February, 2023.
   </p>
 
   {/* Image Section */}
-  <div className="flex justify-center mt-8 space-x-12">
+  <div className="flex flex-col sm:flex-row justify-center mt-8 space-y-8 sm:space-y-0 sm:space-x-12 items-center">
     <img
       src={img1}
       alt="Image 1"
-      className="w-[250px] h-[350px]"
+      className="w-[200px] sm:w-[250px] h-[300px] sm:h-[350px]"
     />
     <img
       src={img2}
       alt="Image 2"
-      className="w-[250px] h-[350px] mt-10"
+      className="w-[200px] sm:w-[250px] h-[300px] sm:h-[350px] sm:mt-10"
     />
     <img
       src={img3}
       alt="Image 3"
-      className="w-[250px] h-[350px]"
+      className="w-[200px] sm:w-[250px] h-[300px] sm:h-[350px]"
     />
   </div>
 </div>
 
 
-          <div className='bg-blue-700 mt-32 text-white '>
-            <h1 className='text-6xl text-dmsans font-semibold text-center mb-16 pt-32'>Ecosystem</h1>
-              <div className='grid grid-cols-4 gap-3 pb-8'>
-                <div className='ml-10'>
-                <FaRegLightbulb size={55} />
-                <h1 className='text-3xl mt-4 font-dmsans'>Ideate</h1>
-                <ul className="list-disc pl-5 mt-4 font-dmsans">
-                  <li>M.S. in Entrepreneurship</li>
-                  <li>IITM Research Labs & Theses </li>
-                  <li>BTP , MTP </li>
-                  <li>ID5101, ID5102, ID5031 </li>
-                  <li>Student Innovative Projects</li>
-                  <li>GDC</li>
-                </ul>
-    
-                </div>
-                <div className='ml-2'>
-                < GiPlantSeed size={55} />
-                <h1 className='text-3xl mt-4 font-dmsans'>Pre-Incubate</h1>
-                <ul className="list-disc pl-5 mt-4 font-dmsans">
-                  <li>Nirmaan: A pre-incubation initiative by IITM to support and nurture early-stage ideas and entrepreneurs.</li>
-                  
-                </ul>
-    
-                </div>
-                <div className='ml-2'>
-                <FaSeedling size={55} />
-                <h1 className='text-3xl mt-4'  >Incubate</h1>
-                <ul className="list-disc pl-5 mt-4 font-dmsans">
-                  <li>RTBI (Rural Technology and <br/> Business Incubator)</li>
-                  <li>IITM Pravartak - Catalyzing Innovation</li>
-                  <li>IITM Incubation Cell</li>
-                  <li>HTIC</li>
-                  <li>Biotechnology Incubator <br/>(Bionest)</li>
-                  
-                </ul>
-    
-                </div>
-                <div className='ml-2'>
-                <CgSupport size={55} />
-                <h1 className='text-3xl mt-4' >Support</h1>
-                <ul className="list-disc pl-5 mt-4 font-dmsans ">
-                  <li>IITMEF (IIT Madras <br/> Entrepreneurship Forum)</li>
-                  <li>Founder in Residence Programs</li>
-                  <li>UGFIR</li>
-                  <li>PGFIR</li>
-                  <li>RuTAG</li>
-                  
-                </ul>
-    
-                </div>
-              </div>
-              
 
-          </div>
+<div className='bg-blue-700 mt-32 text-white'>
+  <h1 className='text-4xl md:text-6xl font-dmsans font-semibold text-center mb-8 md:mb-16 pt-16 md:pt-32'>
+    Ecosystem
+  </h1>
+  <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-6 md:px-0 pb-8'>
+    <div className='ml-2 md:ml-10'>
+      <FaRegLightbulb size={45} className="md:w-auto md:h-auto" />
+      <h1 className='text-2xl md:text-3xl mt-4 font-dmsans'>Ideate</h1>
+      <ul className='list-disc pl-5 mt-4 font-dmsans'>
+        <li>M.S. in Entrepreneurship</li>
+        <li>IITM Research Labs & Theses</li>
+        <li>BTP, MTP</li>
+        <li>ID5101, ID5102, ID5031</li>
+        <li>Student Innovative Projects</li>
+        <li>GDC</li>
+      </ul>
+    </div>
+
+    <div className='ml-2'>
+      <GiPlantSeed size={45} className="md:w-auto md:h-auto" />
+      <h1 className='text-2xl md:text-3xl mt-4 font-dmsans'>Pre-Incubate</h1>
+      <ul className='list-disc pl-5 mt-4 font-dmsans'>
+        <li>
+          Nirmaan: A pre-incubation initiative by IITM to support and nurture early-stage ideas and entrepreneurs.
+        </li>
+      </ul>
+    </div>
+
+    <div className='ml-2'>
+      <FaSeedling size={45} className="md:w-auto md:h-auto" />
+      <h1 className='text-2xl md:text-3xl mt-4 font-dmsans'>Incubate</h1>
+      <ul className='list-disc pl-5 mt-4 font-dmsans'>
+        <li>RTBI (Rural Technology and Business Incubator)</li>
+        <li>IITM Pravartak - Catalyzing Innovation</li>
+        <li>IITM Incubation Cell</li>
+        <li>HTIC</li>
+        <li>Biotechnology Incubator (Bionest)</li>
+      </ul>
+    </div>
+
+    <div className='ml-2'>
+      <CgSupport size={45} className="md:w-auto md:h-auto" />
+      <h1 className='text-2xl md:text-3xl mt-4 font-dmsans'>Support</h1>
+      <ul className='list-disc pl-5 mt-4 font-dmsans'>
+        <li>IITMEF (IIT Madras Entrepreneurship Forum)</li>
+        <li>Founder in Residence Programs</li>
+        <li>UGFIR</li>
+        <li>PGFIR</li>
+        <li>RuTAG</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
           <div className='mt-16 'style={{  backgroundColor: '	#faebd4' }}>
                     <h1 className='text-black text-4xl text-center font-bold font-dmsans pt-8'>Our Team</h1>
                     <div>
