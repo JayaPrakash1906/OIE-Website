@@ -189,7 +189,48 @@ const Home = () => {
           </div>
         </div>
       </div>
-         
+      <div className="grid md:grid-cols-7 px-10 mt-10 gap-14">
+        <div className="mt-16 col-span-5">
+          <div className="flex items-center">
+            <img
+              className="ml-16 w-14 h-14 object-cover"
+              src={img11}
+              alt="Nirmaan Logo"
+            />
+            <span className="text-4xl ml-4 font-dmsans font-bold text-green-600">
+              NIRMAAN
+            </span>
+          </div>
+          <div className="ml-16 mt-4 font-dmsans text-lg">
+            <p>
+              Nirmaan, The Pre-incubator of IIT Madras, is the first of its kind
+              dedicated pre-incubator on a college campus in the country. Its
+              primary objective is to provide technical guidance and business
+              mentorship to student teams, assisting them in refining their
+              business ideas to achieve both technical robustness and economic
+              viability. In addition to offering a well-equipped collaborative
+              workspace and essential financial support, Nirmaan cultivates a
+              supportive and encouraging environment conducive to innovation.
+              Furthermore, the program facilitates valuable connections between
+              nascent startups and experienced mentors who provide specialized
+              technical and business insights, crucial for translating ideas
+              into successful businesses.
+            </p>
+          </div>
+          <div className=" flex justify-start items-start">
+            <a href="https://nirmaan.iitm.ac.in/"target="_blank" rel="noopener noreferrer"><button className="ml-16 mt-12 bg-green-500 text-white font-dmsans px-8 py-1 rounded-2xl hover:bg-green-600 transition">
+              Learn More
+            </button></a>
+          </div>
+        </div>
+        <div className="col-span-2 flex justify-center items-center">
+          <img
+            className=" w-[340px] h-[260px]  mt-[80px] rounded-xl"
+            src={img12}
+            alt="Nirmaan Logo"
+          />
+        </div>
+      </div>
 
       <div className="grid md:grid-cols-7 px-10 mt-10 gap-14">
         <div className="mt-16 col-span-5">

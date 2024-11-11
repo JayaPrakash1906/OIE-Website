@@ -112,34 +112,47 @@ const About  = () => {
   </div>
 </div>
 
-          <div className='mt-16 'style={{  backgroundColor: '	#faebd4' }}>
-                    <h1 className='text-black text-4xl text-center font-bold font-dmsans pt-8'>Our Team</h1>
-                    <div>
-                    <div className="flex justify-center mt-16 mb-16">
-      <div className="flex space-x-4 mb-8">
-        <div className="w-48"> {/* Adjust width as needed */}
+<div
+  className="mt-16"
+  style={{ backgroundColor: '#faebd4' }}
+>
+  <h1 className="text-black text-4xl text-center font-bold font-dmsans pt-8">
+    Our Team
+  </h1>
+  <div>
+    <div className="flex justify-center mt-16 mb-16">
+      <div className="flex flex-col md:flex-row md:space-x-4 space-y-8 md:space-y-0 mb-8">
+        {/* Card 1 */}
+        <div className="w-full md:w-48">
           <img
             src={img5} // Replace with your first image URL
             alt="Image 1"
             className="w-full h-[200px] rounded shadow-lg"
           />
-          <h1 className='text-blue-600 font-dmsans font-semibold text-center mt-2'>Dr. Prabhu Rajagopal</h1>
-          <h2 className=' font-dmsans text-center'>Faculty Advisor</h2>
-           
+          <h1 className="text-blue-600 font-dmsans font-semibold text-center mt-2">
+            Dr. Prabhu Rajagopal
+          </h1>
+          <h2 className="font-dmsans text-center">Faculty Advisor</h2>
         </div>
-        <div className="w-48"> {/* Adjust width as needed */}
+
+        {/* Card 2 */}
+        <div className="w-full md:w-48">
           <img
             src={img4} // Replace with your second image URL
             alt="Image 2"
             className="w-full h-[200px] rounded shadow-md"
           />
-          <h1 className='text-blue-600 font-dmsans font-semibold text-center mt-2'>Ms. K S Nandhini</h1>
-          <h2 className=' font-dmsans text-center'>Manager</h2>
+          <h1 className="text-blue-600 font-dmsans font-semibold text-center mt-2">
+            Ms. K S Nandhini
+          </h1>
+          <h2 className="font-dmsans text-center">Manager</h2>
         </div>
       </div>
     </div>
-                    </div>
-              </div>
+  </div>
+
+
+                </div>
               <Footer/>
       </div>
         
