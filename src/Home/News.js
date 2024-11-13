@@ -7,14 +7,14 @@ import img3 from '../Assets/news3.png';
 const posts = [
   {
     id: 1,
-    title: "ResearchConclave2024",
+    title: "Research Conclave 2024",
     date: "26th Oct 2024",
     image: img1,
     content: "Hosted by the Centre For Innovation (CFI), Research Conclave-2024 will unveil groundbreaking ideas crafted by our talented teams and clubs.",
     link: "https://www.linkedin.com/posts/office-of-innovation-and-entrepreneurship_researchconclave2024-cfi-researchconclave2024-activity-7255831808057999361-CZey?utm_source=share&utm_medium=member_desktop"
   },
   {
-    id: 3,
+    id: 2,
     title: "Investor-Startup meet from IITMIC",
     date: "Sep 18",
     image: img2,
@@ -22,7 +22,7 @@ const posts = [
     link: "https://www.linkedin.com/posts/iitm-incubation-cell_iitmic-deeptech-iitmstartups-activity-7251916041113518081-T7z-?utm_source=share&utm_medium=member_desktop"
   },
   {
-    id: 2,
+    id: 3,
     title: " The Energy Consortium - IIT Madras",
     date: "29th Oct 2024",
     image: img3,

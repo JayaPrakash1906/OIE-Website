@@ -46,7 +46,7 @@ const About  = () => {
     <img
       src={img2}
       alt="Image 2"
-      className="w-[200px] sm:w-[250px] h-[300px] sm:h-[350px] sm:mt-10"
+      className="w-[200px] sm:w-[250px] h-[300px] sm:h-[350px] mt-10"
     />
     <img
       src={img3}
