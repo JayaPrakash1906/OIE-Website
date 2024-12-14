@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.800eea86.css",
-    "main.js": "/static/js/main.0b6e44b4.js",
+    "main.css": "/static/css/main.16c98729.css",
+    "main.js": "/static/js/main.2568cafb.js",
     "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
     "static/media/iitm logo.png": "/static/media/iitm logo.0105d85b3475030de3d8.png",
     "static/media/news1.png": "/static/media/news1.6abc3010515db90e2d6c.png",
@@ -29,12 +29,12 @@
     "static/media/home_img3.jpg": "/static/media/home_img3.885a7a0ea1931baf3f17.jpg",
     "static/media/home_img4.jpg": "/static/media/home_img4.d5a385eb83698657e317.jpg",
     "index.html": "/index.html",
-    "main.800eea86.css.map": "/static/css/main.800eea86.css.map",
-    "main.0b6e44b4.js.map": "/static/js/main.0b6e44b4.js.map",
+    "main.16c98729.css.map": "/static/css/main.16c98729.css.map",
+    "main.2568cafb.js.map": "/static/js/main.2568cafb.js.map",
     "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.800eea86.css",
-    "static/js/main.0b6e44b4.js"
+    "static/css/main.16c98729.css",
+    "static/js/main.2568cafb.js"
   ]
 }
