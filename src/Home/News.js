@@ -3,10 +3,19 @@ import Navbar from '../Components/Navbar';
 import img1 from "../Assets/news1.png";
 import img2 from '../Assets/news2.png';
 import img3 from '../Assets/news3.png';
+import img4 from '../Assets/csr_event.jpeg'
 
 const posts = [
   {
     id: 1,
+    title: "CSR Awards & Summit 2024",
+    date: "13th Dec 2024",
+    image: img4,
+    content: "The Office of Innovation and Entrepreneurship (OIE) participated in the IIT Madras CSR Awards & Summit 2024, focusing on inclusive growth through CSR and technology. ",
+    link: "https://www.linkedin.com/posts/office-of-innovation-and-entrepreneurship_csr-technology-oie-ugcPost-7273587402344935424-0DF-/?utm_source=share&utm_medium=member_desktop"
+  },
+  {
+    id: 2,
     title: "Research Conclave 2024",
     date: "26th Oct 2024",
     image: img1,
@@ -14,7 +23,7 @@ const posts = [
     link: "https://www.linkedin.com/posts/office-of-innovation-and-entrepreneurship_researchconclave2024-cfi-researchconclave2024-activity-7255831808057999361-CZey?utm_source=share&utm_medium=member_desktop"
   },
   {
-    id: 2,
+    id: 3,
     title: "Investor-Startup meet from IITMIC",
     date: "Sep 18",
     image: img2,
@@ -22,7 +31,7 @@ const posts = [
     link: "https://www.linkedin.com/posts/iitm-incubation-cell_iitmic-deeptech-iitmstartups-activity-7251916041113518081-T7z-?utm_source=share&utm_medium=member_desktop"
   },
   {
-    id: 3,
+    id: 4,
     title: " The Energy Consortium - IIT Madras",
     date: "29th Oct 2024",
     image: img3,
