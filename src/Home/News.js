@@ -25,7 +25,7 @@ const posts = [
   {
     id: 3,
     title: "Investor-Startup meet from IITMIC",
-    date: "Sep 18",
+    date: "18th Sep 2024",
     image: img2,
     content: " Our incubated startups—Plenome, Matterize and Interacts AI showcased their innovations and had meaningful one-on-one discussions with the investors.",
     link: "https://www.linkedin.com/posts/iitm-incubation-cell_iitmic-deeptech-iitmstartups-activity-7251916041113518081-T7z-?utm_source=share&utm_medium=member_desktop"
