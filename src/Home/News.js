@@ -3,19 +3,51 @@ import Navbar from '../Components/Navbar';
 import img1 from "../Assets/news1.png";
 import img2 from '../Assets/news2.png';
 import img3 from '../Assets/news3.png';
-import img4 from '../Assets/csr_event.jpeg'
+import img4 from '../Assets/news4.jpeg';
+import img5 from '../Assets/news5.png';
+import img6 from '../Assets/news6.png';
+import img7 from '../Assets/news7.png';
 
 const posts = [
+
+  
   {
     id: 1,
+    title: "Stellantis, Raftar & CFI Gift EV to IIT Madras for Innovation & Research",
+    date: "07th Feb 2025",
+    image: img5,
+    content: "Stellantis, in collaboration with Raftar and CFI, has gifted an electric vehicle to IIT Madras, enhancing research and supporting CFI and OIE activities.",
+    link:"https://www.linkedin.com/posts/office-of-innovation-and-entrepreneurship_cfi-ev-cifi-activity-7293812677972303872-VFVQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFikn4B6jA0Ct1Y84TowFZRR2JHg75s9fg"
+  },
+  {
+    id: 2,
+    title: "Raftar's Triumph: Leading the Charge in EV Innovation! ",
+    date: "22nd Jan 2025",
+    image: img6,
+    content: "Raftar shines with multiple top honors in EV innovation, setting new benchmarks in engineering excellence!",
+    link: "https://www.linkedin.com/posts/office-of-innovation-and-entrepreneurship_formulabharat-raftarracing-evinnovation-activity-7289978534796705794-Uj7a?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFikn4B6jA0Ct1Y84TowFZRR2JHg75s9fg"
+
+  },
+  {
+    id: 3,
+    title: "A Glimpse of IIT Madras Open House 2025",
+    date: "3rd & 4th Jan 2025",
+    image: img7,
+    content: "Thrilled to have been part of an inspiring celebration of innovation at Shaastra 2025—let’s keep pushing boundaries and shaping the future! ",
+    link: "https://www.linkedin.com/posts/office-of-innovation-and-entrepreneurship_iitmadras-openhouse2025-innovationinaction-activity-7281306051092590592-aQvp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFikn4B6jA0Ct1Y84TowFZRR2JHg75s9fg"
+
+  },
+  {
+    id: 4,
     title: "CSR Awards & Summit 2024",
     date: "13th Dec 2024",
     image: img4,
     content: "The Office of Innovation and Entrepreneurship (OIE) participated in the IIT Madras CSR Awards & Summit 2024, focusing on inclusive growth through CSR and technology. ",
     link: "https://www.linkedin.com/posts/office-of-innovation-and-entrepreneurship_csr-technology-oie-ugcPost-7273587402344935424-0DF-/?utm_source=share&utm_medium=member_desktop"
   },
+ 
   {
-    id: 2,
+    id: 5,
     title: "Research Conclave 2024",
     date: "26th Oct 2024",
     image: img1,
@@ -23,7 +55,7 @@ const posts = [
     link: "https://www.linkedin.com/posts/office-of-innovation-and-entrepreneurship_researchconclave2024-cfi-researchconclave2024-activity-7255831808057999361-CZey?utm_source=share&utm_medium=member_desktop"
   },
   {
-    id: 3,
+    id: 6,
     title: "Investor-Startup meet from IITMIC",
     date: "18th Sep 2024",
     image: img2,
@@ -31,7 +63,7 @@ const posts = [
     link: "https://www.linkedin.com/posts/iitm-incubation-cell_iitmic-deeptech-iitmstartups-activity-7251916041113518081-T7z-?utm_source=share&utm_medium=member_desktop"
   },
   {
-    id: 4,
+    id: 7,
     title: " The Energy Consortium - IIT Madras",
     date: "29th Oct 2024",
     image: img3,
