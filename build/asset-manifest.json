@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.16c98729.css",
-    "main.js": "/static/js/main.3228feb4.js",
+    "main.js": "/static/js/main.5ea00aaa.js",
     "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
+    "static/media/news9.png": "/static/media/news9.a126f92e5ff433e1dca7.png",
     "static/media/iitm logo.png": "/static/media/iitm logo.0105d85b3475030de3d8.png",
     "static/media/news7.png": "/static/media/news7.d9fea73104d2fd4b43ef.png",
     "static/media/news1.png": "/static/media/news1.6abc3010515db90e2d6c.png",
@@ -11,6 +12,7 @@
     "static/media/news3.png": "/static/media/news3.fd074fb8273fcf5aebda.png",
     "static/media/news5.png": "/static/media/news5.90a354d30b694d5e9e5b.png",
     "static/media/news2.png": "/static/media/news2.0733aea1455cd7ffdaf9.png",
+    "static/media/news8.png": "/static/media/news8.c9eeabab16b1792a20ca.png",
     "static/media/Nandhini.jpeg": "/static/media/Nandhini.2b5be7ce3ba3bb1f2e48.jpeg",
     "static/media/news4.jpeg": "/static/media/news4.4235064499587bf116e5.jpeg",
     "static/media/OIE Logo.png": "/static/media/OIE Logo.4a572bba601f54432037.png",
@@ -33,11 +35,11 @@
     "static/media/home_img4.jpg": "/static/media/home_img4.d5a385eb83698657e317.jpg",
     "index.html": "/index.html",
     "main.16c98729.css.map": "/static/css/main.16c98729.css.map",
-    "main.3228feb4.js.map": "/static/js/main.3228feb4.js.map",
+    "main.5ea00aaa.js.map": "/static/js/main.5ea00aaa.js.map",
     "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.16c98729.css",
-    "static/js/main.3228feb4.js"
+    "static/js/main.5ea00aaa.js"
   ]
 }
