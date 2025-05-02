@@ -98,7 +98,7 @@ const Ms_Entrepreneurship = () => {
           {/* Main Heading */}
           <div className="flex items-center justify-center flex-grow text-center px-4">
             <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-4">
-              <img src={Img2} alt="IITM Logo" className="h-20 w-20 sm:h-24 sm:w-24 object-contain" />
+              <img src={Img2} alt="IITM Logo" className="h-20 w-20 sm:h-24 sm:w-24 object-contain"  />
               <div className="text-center sm:text-left">
                 <h1 className="text-3xl sm:text-4xl md:text-5xl">MS in Entrepreneurship@IITM</h1>
                 <p className="text-lg sm:text-xl md:text-2xl mt-1">July 2025 Batch Admission Cycle</p>
