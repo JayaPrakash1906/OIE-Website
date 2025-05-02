@@ -10,15 +10,15 @@ const Navbar = () => {
   const toggleActivities = () => setIsActivitiesOpen(!isActivitiesOpen);
 
   return (
-    <div className="fixed top-0 left-0 w-full bg-white text-black p-1 z-50">
-      <div className="flex items-center justify-between ml-8">
+    <div className="fixed top-0 left-0 w-full bg-white text-black p-2 z-50 shadow-md">
+      <div className="flex items-center justify-between px-4">
         <a className="flex items-center" onClick={() => (window.location.href = "/")}>
-          <img src={Img1} className="w-22 h-12 mr-2" alt="Image1" />
-          <img src={Img2} className="w-22 h-20 mr-2" alt="Image2" />
+          <img src={Img1} className="w-22 h-12 mr-2" alt="IITM Logo" />
+          <img src={Img2} className="w-22 h-20" alt="OIE Logo" />
         </a>
 
         {/* Hamburger Icon */}
-        <div className="md:hidden mr-8">
+        <div className="md:hidden">
           <button
             className="text-black focus:outline-none"
             onClick={toggleMenu}
@@ -39,17 +39,17 @@ const Navbar = () => {
             <button className="hover:scale-[1.02] transition-all">Activities</button>
             <div className="absolute hidden bg-white text-black mt-1 shadow-lg rounded-sm group-hover:block right-[-28px] border-t-4 border-blue-700">
               <a href="https://cfi.iitm.ac.in/" target="_blank" rel="noopener noreferrer">
-                <button className="block px-1 py-2 hover:bg-gray-200 w-full text-left">CFI</button>
+                <button className="block px-4 py-2 hover:bg-gray-200 w-full text-left">CFI</button>
               </a>
               <a href="https://nirmaan.iitm.ac.in/" target="_blank" rel="noopener noreferrer">
-                <button className="block px-1 py-2 hover:bg-gray-200 w-full text-left">Nirmaan</button>
+                <button className="block px-4 py-2 hover:bg-gray-200 w-full text-left">Nirmaan</button>
               </a>
               <a href="https://www.youtube.com/@InnovationEntrepreneurship" target="_blank" rel="noopener noreferrer">
-                <button className="block px-1 py-2 hover:bg-gray-200 w-full text-left">Innosphere</button>
+                <button className="block px-4 py-2 hover:bg-gray-200 w-full text-left">Innosphere</button>
               </a>
-              <button className="block px-1 py-2 hover:bg-gray-200 w-full text-left"
+              <button className="block px-4 py-2 hover:bg-gray-200 w-full text-left"
                 onClick={() => (window.location.href = "/ms_entrepreneurship/home")}>
-                Ms in Entrepreneurship
+                MS in Entrepreneurship
               </button>
             </div>
           </div>
@@ -61,39 +61,37 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden flex flex-col items-start gap-2 mt-4 p-4 bg-white shadow-lg">
-          <button onClick={() => (window.location.href = "/")} className="text-black w-full">Home</button>
-          <button onClick={() => (window.location.href = "/about_us")} className="text-black w-full">About</button>
+        <div className="md:hidden flex flex-col gap-2 mt-4 p-4 bg-white shadow-lg">
+          <button onClick={() => (window.location.href = "/")} className="text-black text-left w-full px-2 py-2">Home</button>
+          <button onClick={() => (window.location.href = "/about_us")} className="text-black text-left w-full px-2 py-2">About</button>
 
-          {/* Mobile Activities Toggle */}
-          <button onClick={toggleActivities} className="text-black w-full font-semibold flex justify-between items-center">
+          <button onClick={toggleActivities} className="text-black text-left w-full font-semibold flex justify-between items-center px-2 py-2">
             Activities
             <span>{isActivitiesOpen ? '▲' : '▼'}</span>
           </button>
 
-          {/* Activities Dropdown */}
           {isActivitiesOpen && (
-            <div className="pl-4 w-full">
+            <div className="pl-4">
               <a href="https://cfi.iitm.ac.in/" target="_blank" rel="noopener noreferrer">
-                <button className="text-black w-full text-left px-2 py-1 hover:bg-gray-200">CFI</button>
+                <button className="text-black text-left w-full px-2 py-1 hover:bg-gray-200">CFI</button>
               </a>
               <a href="https://nirmaan.iitm.ac.in/" target="_blank" rel="noopener noreferrer">
-                <button className="text-black w-full text-left px-2 py-1 hover:bg-gray-200">Nirmaan</button>
+                <button className="text-black text-left w-full px-2 py-1 hover:bg-gray-200">Nirmaan</button>
               </a>
               <a href="https://www.youtube.com/@InnovationEntrepreneurship" target="_blank" rel="noopener noreferrer">
-                <button className="text-black w-full text-left px-2 py-1 hover:bg-gray-200">Innosphere</button>
+                <button className="text-black text-left w-full px-2 py-1 hover:bg-gray-200">Innosphere</button>
               </a>
               <button
                 onClick={() => (window.location.href = "/ms_entrepreneurship/home")}
-                className="text-black w-full text-left px-2 py-1 hover:bg-gray-200"
+                className="text-black text-left w-full px-2 py-1 hover:bg-gray-200"
               >
-                Ms in Entrepreneurship
+                MS in Entrepreneurship
               </button>
             </div>
           )}
 
-          <button onClick={() => (window.location.href = "/news")} className="text-black w-full">News</button>
-          <button onClick={() => (window.location.href = "/contact")} className="text-black w-full">Contact us</button>
+          <button onClick={() => (window.location.href = "/news")} className="text-black text-left w-full px-2 py-2">News</button>
+          <button onClick={() => (window.location.href = "/contact")} className="text-black text-left w-full px-2 py-2">Contact us</button>
         </div>
       )}
     </div>

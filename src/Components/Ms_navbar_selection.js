@@ -41,7 +41,7 @@ const Ms_Entrepreneurship = () => {
           
           {/* Navbar */}
           <div className="flex justify-between items-center px-6 pt-4">
-            <div className="text-lg font-semibold">MS in Entrepreneurship</div>
+            <div className="text-lg font-semibold"></div>
 
             {/* Desktop Menu */}
             <div className="hidden md:flex items-center space-x-6 text-sm font-medium">

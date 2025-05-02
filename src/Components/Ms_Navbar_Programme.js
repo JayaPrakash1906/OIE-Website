@@ -38,7 +38,7 @@ const Ms_Entrepreneurship = () => {
         <div className="flex flex-col h-full bg-black bg-opacity-40">
           {/* Navbar */}
           <div className="px-4 md:px-6 pt-4 flex justify-between items-center">
-            <div className="text-lg font-semibold">MS in Entrepreneurship</div>
+            <div className="text-lg font-semibold"></div>
 
             {/* Mobile Menu Icon */}
             <div className="md:hidden text-xl cursor-pointer" onClick={toggleMenu}>
