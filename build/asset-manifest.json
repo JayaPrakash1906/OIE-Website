@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.16c98729.css",
-    "main.js": "/static/js/main.5ea00aaa.js",
+    "main.css": "/static/css/main.057a059c.css",
+    "main.js": "/static/js/main.8fbc1a4a.js",
     "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
     "static/media/news9.png": "/static/media/news9.a126f92e5ff433e1dca7.png",
     "static/media/iitm logo.png": "/static/media/iitm logo.0105d85b3475030de3d8.png",
@@ -13,9 +13,11 @@
     "static/media/news5.png": "/static/media/news5.90a354d30b694d5e9e5b.png",
     "static/media/news2.png": "/static/media/news2.0733aea1455cd7ffdaf9.png",
     "static/media/news8.png": "/static/media/news8.c9eeabab16b1792a20ca.png",
+    "static/media/bg.jpg": "/static/media/bg.a51d7047bd6967ba67ee.jpg",
     "static/media/Nandhini.jpeg": "/static/media/Nandhini.2b5be7ce3ba3bb1f2e48.jpeg",
     "static/media/news4.jpeg": "/static/media/news4.4235064499587bf116e5.jpeg",
     "static/media/OIE Logo.png": "/static/media/OIE Logo.4a572bba601f54432037.png",
+    "static/media/process.png": "/static/media/process.7e0f8827a0a9e6a5e166.png",
     "static/media/prajagopal.jpg": "/static/media/prajagopal.5d9a851bb9139167c41b.jpg",
     "static/media/Sudha&Shankar.jpg": "/static/media/Sudha&Shankar.21982b0a89377f2f7887.jpg",
     "static/media/Nirmaan image.jpg": "/static/media/Nirmaan image.fb1ce63135feab70248a.jpg",
@@ -24,6 +26,7 @@
     "static/media/about img.jpg": "/static/media/about img.dac5b7be0a17f106e0da.jpg",
     "static/media/home_img5.jpg": "/static/media/home_img5.e483a917df300d06eed1.jpg",
     "static/media/home_img1.jpg": "/static/media/home_img1.89db6cfe4602f12b07d6.jpg",
+    "static/media/application_Ms.png": "/static/media/application_Ms.685036aef5904a42d59f.png",
     "static/media/home_img8.jpg": "/static/media/home_img8.93c38f1ed9afedea1c33.jpg",
     "static/media/home_img2.jpg": "/static/media/home_img2.483cc305357b68974c38.jpg",
     "static/media/cfi image.jpg": "/static/media/cfi image.8b13a295db5d01c30a09.jpg",
@@ -34,12 +37,12 @@
     "static/media/home_img3.jpg": "/static/media/home_img3.885a7a0ea1931baf3f17.jpg",
     "static/media/home_img4.jpg": "/static/media/home_img4.d5a385eb83698657e317.jpg",
     "index.html": "/index.html",
-    "main.16c98729.css.map": "/static/css/main.16c98729.css.map",
-    "main.5ea00aaa.js.map": "/static/js/main.5ea00aaa.js.map",
+    "main.057a059c.css.map": "/static/css/main.057a059c.css.map",
+    "main.8fbc1a4a.js.map": "/static/js/main.8fbc1a4a.js.map",
     "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16c98729.css",
-    "static/js/main.5ea00aaa.js"
+    "static/css/main.057a059c.css",
+    "static/js/main.8fbc1a4a.js"
   ]
 }

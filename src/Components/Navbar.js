@@ -70,6 +70,10 @@ const Navbar = () => {
               >
                  Innosphere
               </button></a>
+             <button className='/* block  px-1 py-2 text-sm hover:bg-gray-200 w-full text-left mr-8' onClick={() => (window.location.href = "/ms_entrepreneurship/home")}>
+                Ms in Entrepreneurship
+
+             </button>
             </div>
           </div>
           <button

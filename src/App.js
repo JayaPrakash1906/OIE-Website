@@ -4,6 +4,11 @@ import Home from "./Home/Home";
 import Contact from "./Home/Contact"
 import News from './Home/News';
 import About from './Home/About';
+import Ms_Entrepreneurship from './Home/MS_Entrepreneurship_home';
+import Ms_Entrepreneurship_selection from './Home/MS_Entrepreneurship_selection';
+import Ms_Entrepreneurship_Submitpreferences from './Home/MS_Submitpreferences';
+import Ms_Entrepreneurship_Resources from './Home/MS_Entrep_Resources';
+import Ms_Entrep_Programme from './Home/Ms_Entrep_Programme';
 
 function App() {
   return (
@@ -14,6 +19,11 @@ function App() {
           <Route path="/about_us" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/news" element={<News /> } />
+          <Route path="/ms_entrepreneurship/home" element={< Ms_Entrepreneurship/>} />
+          <Route path="/ms_entrepreneurship/selection-list" element={<Ms_Entrepreneurship_selection />} />
+          <Route path="/submit-preferences" element={<Ms_Entrepreneurship_Submitpreferences />} />
+          <Route path="/resources" element={<Ms_Entrepreneurship_Resources />} />
+          <Route path="/programme-structure" element={< Ms_Entrep_Programme/>} />
         </Routes>
       </BrowserRouter>
     </div>
