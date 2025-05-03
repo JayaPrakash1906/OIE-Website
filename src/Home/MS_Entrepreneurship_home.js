@@ -8,8 +8,8 @@ const MS_Entrepreneurship_home = () => {
 
       {/* Header */}
       <div className="text-center py-6 mt-16 px-4 sm:px-6">
-        <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold text-sky-700">
-          MS in Entrepreneurship
+        <h2 className="text-xl sm:text-3xl lg:text-4xl font-semibold text-sky-700">
+          MS (Entrepreneurship)
         </h2>
       </div>
 
@@ -110,6 +110,10 @@ const MS_Entrepreneurship_home = () => {
                 "Vibrotactile glove as a therapeutic device to help Parkinson's disease patients",
                 "Development of an exoskeleton to help people with Brachial plexus injury",
                 "Human locomotion-based energy harvester",
+                "Ecofriendly treatment technology for hazardous chemicals from industry ",
+                "Chlorine free Disinfection system using electochemical ozonation",
+                "Reinventing Sanitation with circular economy model ",
+                "Formulation and Testing of Inks for Digital Printing",
               ].map((topic, index) => (
                 <tr key={index}>
                    <td className="border border-gray-300 px-4 py-2">{`P${String(index + 1).padStart(2, '0')}`}</td>

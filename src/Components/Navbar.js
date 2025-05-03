@@ -37,7 +37,7 @@ const Navbar = () => {
 
           <div className="relative group md:pt-4">
             <button className="hover:scale-[1.02] transition-all">Activities</button>
-            <div className="absolute hidden bg-white text-black mt-1 shadow-lg rounded-sm group-hover:block right-[-28px] border-t-4 border-blue-700">
+            <div className="absolute hidden bg-white text-black mt-1 shadow-lg rounded-sm group-hover:block left-1/2 transform -translate-x-1/2 border-t-4 border-blue-700 z-10">
               <a href="https://cfi.iitm.ac.in/" target="_blank" rel="noopener noreferrer">
                 <button className="block px-4 py-2 hover:bg-gray-200 w-full text-left">CFI</button>
               </a>
@@ -47,9 +47,9 @@ const Navbar = () => {
               <a href="https://www.youtube.com/@InnovationEntrepreneurship" target="_blank" rel="noopener noreferrer">
                 <button className="block px-4 py-2 hover:bg-gray-200 w-full text-left">Innosphere</button>
               </a>
-              <button className="block px-4 py-2 hover:bg-gray-200 w-full text-left"
+              <button className="block px-4 py-2 hover:bg-gray-200 w-full text-left whitespace-nowrap"
                 onClick={() => (window.location.href = "/ms_entrepreneurship/home")}>
-                MS in Entrepreneurship
+                MS (Entrepreneurship)
               </button>
             </div>
           </div>
@@ -85,7 +85,7 @@ const Navbar = () => {
                 onClick={() => (window.location.href = "/ms_entrepreneurship/home")}
                 className="text-black text-left w-full px-2 py-1 hover:bg-gray-200"
               >
-                MS in Entrepreneurship
+                MS (Entrepreneurship)
               </button>
             </div>
           )}
