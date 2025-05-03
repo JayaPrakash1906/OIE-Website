@@ -100,7 +100,7 @@ const navLinks = (handleNavClick, activePage) => (
     >
       Programme Structure
     </button>
-    <span className="cursor-pointer" onClick={() => handleNavClick('/search')}>
+    <span className="cursor-pointer">
       <FaSearch />
     </span>
   </>

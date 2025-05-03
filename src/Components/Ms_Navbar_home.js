@@ -101,7 +101,7 @@ const Ms_Entrepreneurship = () => {
                 {label}
               </button>
             ))}
-            <span className="cursor-pointer" onClick={() => navigate('/search')}>
+            <span className="cursor-pointer" >
               <FaSearch />
             </span>
           </div>

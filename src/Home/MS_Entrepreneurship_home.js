@@ -114,6 +114,9 @@ const MS_Entrepreneurship_home = () => {
                 "Chlorine free Disinfection system using electochemical ozonation",
                 "Reinventing Sanitation with circular economy model ",
                 "Formulation and Testing of Inks for Digital Printing",
+                "Intelligent home surveillance and management system",
+                "Human collaborative robots",
+                "Digital dashboards for management of education and nutrition delivery",
               ].map((topic, index) => (
                 <tr key={index}>
                    <td className="border border-gray-300 px-4 py-2">{`P${String(index + 1).padStart(2, '0')}`}</td>
