@@ -29,62 +29,69 @@ const Home = () => {
   IIT MADRAS
 </div>
 
-<div className="grid grid-cols-2 gap-1 sm:grid-cols-3 md:grid-cols-5 md:mt-32">
-  <div>
-    <img
-      src={img1}
-      alt="Home image 1"
-      className="w-[150px] h-[250px] sm:w-[180px] sm:h-[300px] md:w-[200px] md:h-[360px] object-cover rounded-xl shadow-md ml-4 md:ml-8 mt-16 md:mt-32 transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
-    />
-  </div>
+<div className="w-full px-4 py-10 bg-white">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
+        {/* Column 1 */}
+        <div className="flex justify-center items-start">
+          <img
+            src={img1}
+            alt="img1"
+            className="w-full max-w-[150px] sm:max-w-[180px] md:max-w-[200px] object-cover h-[250px] sm:h-[300px] md:h-[360px] rounded-xl shadow-md mt-10 sm:mt-16 md:mt-32 transition-transform duration-300 hover:scale-105"
+          />
+        </div>
 
-  <div className="flex flex-col items-center space-y-2 sm:space-y-4 ml-1">
-    <img
-      src={img2}
-      alt="Home image 2"
-      className="w-[150px] h-[250px] sm:w-[180px] sm:h-[300px] md:w-[210px] md:h-[360px] object-cover rounded-xl shadow-md transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
-    />
-    <img
-      src={img3}
-      alt="Home image 3"
-      className="w-[150px] h-[120px] sm:w-[180px] sm:h-[150px] md:w-[210px] md:h-[200px] object-cover rounded-xl shadow-md transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
-    />
-  </div>
+        {/* Column 2 */}
+        <div className="flex flex-col items-center space-y-4">
+          <img
+            src={img2}
+            alt="img2"
+            className="w-full max-w-[180px] md:max-w-[210px] h-[250px] sm:h-[300px] md:h-[360px] object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
+          />
+          <img
+            src={img3}
+            alt="img3"
+            className="w-full max-w-[180px] md:max-w-[210px] h-[120px] sm:h-[150px] md:h-[200px] object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
+          />
+        </div>
 
-  <div className="flex flex-col items-center space-y-2 sm:space-y-4 mt-8 sm:mt-12 md:mt-16">
-    <img
-      src={img4}
-      alt="Home image 4"
-      className="w-[150px] h-[110px] sm:w-[180px] sm:h-[150px] md:w-[210px] md:h-[180px] object-cover rounded-xl shadow-md transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
-    />
-    <img
-      src={img5}
-      alt="Home image 5"
-      className="w-[150px] h-[250px] sm:w-[180px] sm:h-[300px] md:w-[210px] md:h-[360px] object-cover rounded-xl shadow-md transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
-    />
-  </div>
+        {/* Column 3 */}
+        <div className="flex flex-col items-center space-y-4 mt-4 sm:mt-8 md:mt-16">
+          <img
+            src={img4}
+            alt="img4"
+            className="w-full max-w-[180px] md:max-w-[210px] h-[110px] sm:h-[150px] md:h-[180px] object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
+          />
+          <img
+            src={img5}
+            alt="img5"
+            className="w-full max-w-[180px] md:max-w-[210px] h-[250px] sm:h-[300px] md:h-[360px] object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
+          />
+        </div>
 
-  <div className="flex flex-col items-center space-y-2 sm:space-y-4 mr-1">
-    <img
-      src={img6}
-      alt="Home image 6"
-      className="w-[150px] h-[250px] sm:w-[180px] sm:h-[300px] md:w-[210px] md:h-[360px] object-cover rounded-xl shadow-md transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
-    />
-    <img
-      src={img7}
-      alt="Home image 7"
-      className="w-[150px] h-[120px] sm:w-[180px] sm:h-[150px] md:w-[210px] md:h-[190px] object-cover rounded-xl shadow-md transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
-    />
-  </div>
+        {/* Column 4 */}
+        <div className="flex flex-col items-center space-y-4">
+          <img
+            src={img6}
+            alt="img6"
+            className="w-full max-w-[180px] md:max-w-[210px] h-[250px] sm:h-[300px] md:h-[360px] object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
+          />
+          <img
+            src={img7}
+            alt="img7"
+            className="w-full max-w-[180px] md:max-w-[210px] h-[120px] sm:h-[150px] md:h-[190px] object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
+          />
+        </div>
 
-  <div>
-    <img
-      src={img8}
-      alt="Home image 8"
-      className="w-[150px] h-[250px] sm:w-[180px] sm:h-[300px] md:w-[200px] md:h-[360px] object-cover rounded-xl shadow-md mr-4 md:mr-9 mt-16 md:mt-32 transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
-    />
-  </div>
-</div>
+        {/* Column 5 */}
+        <div className="flex justify-center items-start">
+          <img
+            src={img8}
+            alt="img8"
+            className="w-full max-w-[150px] sm:max-w-[180px] md:max-w-[200px] object-cover h-[250px] sm:h-[300px] md:h-[360px] rounded-xl shadow-md mt-10 sm:mt-16 md:mt-32 transition-transform duration-300 hover:scale-105"
+          />
+        </div>
+      </div>
+    </div>
 
 
 <div className="uppercase text-black mt-[150px] text-center font-bold font-dmsans text-4xl sm:text-3xl md:text-4xl opacity-0 translate-y-6 animate-fade-in-up">
@@ -189,20 +196,16 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="grid md:grid-cols-7 px-10 mt-10 gap-14">
-        <div className="mt-16 col-span-5">
-          <div className="flex items-center">
-            <img
-              className="ml-16 w-14 h-14 object-cover"
-              src={img11}
-              alt="Nirmaan Logo"
-            />
-            <span className="text-4xl ml-4 font-dmsans font-bold text-green-600">
-              NIRMAAN
-            </span>
-          </div>
-          <div className="ml-16 mt-4 font-dmsans text-lg">
-            <p>
+      <div className="grid grid-cols-1 md:grid-cols-7 lg:grid-cols-7 px-4 md:px-10 mt-10 gap-10 md:gap-14">
+  <div className="mt-8 md:mt-16 col-span-1 md:col-span-5">
+    <div className="flex items-center justify-center md:justify-start">
+      <img className="w-14 h-14 object-cover" src={img11} alt="Nirmaan Logo" />
+      <span className="text-2xl md:text-4xl ml-4 font-dmsans font-bold text-green-600">
+        NIRMAAN
+      </span>
+    </div>
+    <div className="mt-4 font-dmsans text-base md:text-lg px-4 md:px-0 text-justify">
+      <p>
               Nirmaan, The Pre-incubator of IIT Madras, is the first of its kind
               dedicated pre-incubator on a college campus in the country. Its
               primary objective is to provide technical guidance and business
@@ -215,37 +218,39 @@ const Home = () => {
               nascent startups and experienced mentors who provide specialized
               technical and business insights, crucial for translating ideas
               into successful businesses.
-            </p>
-          </div>
-          <div className=" flex justify-start items-start">
-            <a href="https://nirmaan.iitm.ac.in/"target="_blank" rel="noopener noreferrer"><button className="ml-16 mt-12 bg-green-500 text-white font-dmsans px-8 py-1 rounded-2xl hover:bg-green-600 transition">
-              Learn More
-            </button></a>
-          </div>
-        </div>
-        <div className="col-span-2 flex justify-center items-center">
-          <img
-            className=" w-[340px] h-[260px]  mt-[80px] rounded-xl"
-            src={img12}
-            alt="Nirmaan Logo"
-          />
-        </div>
-      </div>
+      </p>
+    </div>
+    <div className="flex justify-center md:justify-start items-start">
+      <a
+        href="https://nirmaan.iitm.ac.in/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button className="mt-8 md:mt-12 bg-green-500 text-white font-dmsans px-6 md:px-8 py-2 rounded-2xl hover:bg-green-600 transition">
+          Learn More
+        </button>
+      </a>
+    </div>
+  </div>
+  <div className="col-span-1 md:col-span-2 flex justify-center items-center mt-8 md:mt-20">
+    <img
+      className="w-72 h-56 md:w-[340px] md:h-[260px] rounded-xl"
+      src={img12}
+      alt="Nirmaan Image"
+    />
+  </div>
+</div>
 
-      <div className="grid md:grid-cols-7 px-10 mt-10 gap-14">
-        <div className="mt-16 col-span-5">
-          <div className="flex items-center">
-            <img
-              className="ml-16 w-16 h-14 object-cover"
-              src={img13}
-              alt="Nirmaan Logo"
-            />
-            <span className="text-4xl ml-4 font-dmsans font-bold text-red-600">
-              CENTRE FOR INNOVATION (CFI)
-            </span>
-          </div>
-          <div className="ml-16 mt-4 font-dmsans text-lg">
-            <p>
+<div className="grid grid-cols-1 md:grid-cols-7 lg:grid-cols-7 px-4 md:px-10 mt-10 gap-10 md:gap-14">
+  <div className="mt-8 md:mt-16 col-span-1 md:col-span-5">
+    <div className="flex items-center justify-center md:justify-start">
+      <img className="w-16 h-14 object-cover" src={img13} alt="CFI Logo" />
+      <span className="text-2xl md:text-4xl ml-4 font-dmsans font-bold text-red-600">
+        CENTRE FOR INNOVATION (CFI)
+      </span>
+    </div>
+    <div className="mt-4 font-dmsans text-base md:text-lg px-4 md:px-0 text-justify">
+      <p>
               The Centre for Innovation (CFI) at IIT Madras is a pioneering
               student-led "Tinker Lab" and one of the oldest academic entities
               dedicated to “Doing by Learning”. Established by the alumni class
@@ -255,22 +260,29 @@ const Home = () => {
               'Hobby' clubs and 8 competition teams, complemented by additional
               teams offering expertise in branding, engagement, finance, and web
               operations/coding support.
-            </p>
-          </div>
-          <div className=" flex justify-start items-start">
-          <a href="https://cfi.iitm.ac.in/"target="_blank" rel="noopener noreferrer"><button className="ml-16 mt-12 bg-red-500 text-white font-dmsans px-8 py-1 rounded-2xl hover:bg-red-600 transition">
-              Learn More
-            </button></a>
-          </div>
-        </div>
-        <div className="col-span-2 flex justify-center items-center">
-          <img
-            className=" w-[340px] h-[260px]  mt-[120px] rounded-xl"
-            src={img14}
-            alt="cfi image"
-          />
-        </div>
-      </div>
+      </p>
+    </div>
+    <div className="flex justify-center md:justify-start items-start">
+      <a
+        href="https://cfi.iitm.ac.in/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button className="mt-8 md:mt-12 bg-red-500 text-white font-dmsans px-6 md:px-8 py-2 rounded-2xl hover:bg-red-600 transition">
+          Learn More
+        </button>
+      </a>
+    </div>
+  </div>
+  <div className="col-span-1 md:col-span-2 flex justify-center items-center mt-8 md:mt-[120px]">
+    <img
+      className="w-72 h-56 md:w-[340px] md:h-[260px] rounded-xl"
+      src={img14}
+      alt="CFI Image"
+    />
+  </div>
+</div>
+
 
       <Footer />
     </div>
