@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "../Components/PGFIR_Navbar";
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaGlobe } from "react-icons/fa";
 import img1 from "../Assets/kgmg2020-1.jpg";
 import img2 from "../Assets/kgmg2020-2.jpg";
 import img3 from "../Assets/kgmg2020-3.jpg";
@@ -23,7 +23,7 @@ const cohortData = {
       img: img15,
       name: "Muthu Kumar K",
       role: "PhD",
-      company: "Riverline",
+      company: "",
       link: "https://www.linkedin.com/company/getrecontact",
     },
   ],
@@ -344,18 +344,32 @@ const Pgfir_home = () => {
                     alt={member.name}
                     className="object-cover w-full h-full transition-all duration-500 hover:brightness-50"
                   />
+                  
+                </div>
+                <h3 className="text-lg font-semibold text-green-700">{member.name}</h3>
+                 <div className="flex justify-center gap-4 mt-2">
                   {member.link && (
                     <a
                       href={member.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="absolute inset-0 flex justify-center items-center opacity-0 hover:opacity-100 bg-black bg-opacity-40 transition-opacity"
+                      aria-label="LinkedIn Profile"
                     >
-                      <FaLinkedin size={28} className="text-white" />
+                      <FaLinkedin size={24} className="text-blue-600 hover:text-blue-800 transition-colors" />
+                    </a>
+                  )}
+                  {member.website && (
+                    <a
+                      href={member.website}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Website"
+                    >
+                      <FaGlobe size={22} className="text-gray-600 hover:text-gray-800 transition-colors" />
                     </a>
                   )}
                 </div>
-                <h3 className="text-lg font-semibold text-green-700">{member.name}</h3>
+                
                 <p className="text-sm text-gray-600">{member.role}</p>
                 <p className="text-sm font-medium text-gray-500">{member.company}</p>
               </div>
