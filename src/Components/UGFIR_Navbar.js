@@ -4,13 +4,13 @@ import Img2 from '../Assets/nirmaan logo.png';
 import Img3 from '../Assets/iitm logo.png';
 
 const Ms_Entrepreneurship = () => {
-  const applyLink = 'https://example.com/apply'; // <-- Replace with your real link
+  const applyLink = 'https://forms.gle/fG8ZWLV7TQYdTrTi9'; // <-- Replace with your real link
 
   return (
     <div>
       {/* Banner */}
-      <div className="text-center bg-gray-300 py-2">
-        <p className="text-sm font-semibold">Applications open soon—watch this space for updates!</p>
+      <div className="text-center bg-green-100 py-2">
+        <h2 className="text-lg font-bold animate-marquee font-dmsans">Applications are welcome for the UGFIR 2025</h2>
       </div>
 
       {/* Background Image Header */}
@@ -53,7 +53,7 @@ const Ms_Entrepreneurship = () => {
               />
               <div className="text-center sm:text-left mt-4 sm:mt-0">
                 <h1 className="text-3xl sm:text-4xl md:text-5xl">UGFIR Scholarship</h1>
-                <p className="text-lg sm:text-xl md:text-2xl mt-1">May 2025 Batch Admission Cycle</p>
+                {/* <p className="text-lg sm:text-xl md:text-2xl mt-1">May 2025 Batch Admission Cycle</p> */}
               </div>
             </div>
           </div>

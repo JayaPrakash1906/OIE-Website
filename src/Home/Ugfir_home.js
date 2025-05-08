@@ -29,36 +29,36 @@ import img23 from "../Assets/ugfir-14.jpg";
 
 const cohortData = {
   2024: [
-    { img: img10, name: "Jayanth K", role: "Founder", company: "Riverline", link: "https://www.linkedin.com/company/getrecontact" },
+    { img: img10, name: "Jayanth K", role: "Founder", company: "Riverline", link: "https://www.linkedin.com/in/jayanth151002/" },
     { img: img11, name: "Phalgun Vyas", role: "Founder", company: "Sukoon", link: "http://linkedin.com/in/phalgunvyas" },
     { img: img12, name: "Shreepoorna S Rao", role: "Founder", company: "Arctus Aerospace", link: "https://www.linkedin.com/in/shreepoornasrao/" },
-    { img: img13, name: "Vijai Suraj", role: "Founder", company: "Demeter", link: "" },
-    { img: img14, name: "Anirudh Varna", role: "CTO", company: "Plenome", link: "https://www.linkedin.com/company/plenome/" },
-    { img: img15, name: "Prakash Dev", role: "Founder", company: "Electra Wheeler", link: "https://www.linkedin.com/company/96685666/admin/feed/posts/" },
+    { img: img13, name: "Vijai Suraj", role: "Founder", company: "Demeter", link: "https://www.linkedin.com/in/vijaisuraj/" },
+    { img: img14, name: "Anirudh Varna", role: "CTO", company: "Plenome", link: "https://www.linkedin.com/in/anirudh-varna-b5b0451b9/" },
+    { img: img15, name: "Prakash Dev", role: "Founder", company: "Electra Wheeler", link: "https://www.linkedin.com/in/prakash1202/" },
     { img: img16, name: "Easwar Veeragandham", role: "Founder", company: "Krishaka", link: "https://www.linkedin.com/in/easwar-veeragandham-132367194/" },
     { img: img17, name: "Tamminaina Sai Gowtham", role: "Founder", company: "Seat of Joy", link: "https://www.linkedin.com/in/sai-gowtham-tamminaina-b847311b9/" },
-    { img: img18, name: "Sarthak Saurav", role: "Founder", company: "Matterize", link: "https://www.linkedin.com/company/matterize/" },
-    { img: img19, name: "Amit Kumar", role: "Founder", company: "Bharat Dream and Devplus", link: "https://www.linkedin.com/in/indian-dream-a126952b8/" },
+    { img: img18, name: "Sarthak Saurav", role: "Founder", company: "Matterize", link: "https://www.linkedin.com/in/sarthak-saurav/" },
+    { img: img19, name: "Amit Kumar", role: "Founder", company: "Bharat Dream and Devplus", link: "https://www.linkedin.com/in/amitkumariitm/" },
     { img: img20, name: "Bindusara Reddy", role: "Founder", company: "Quark", link: "https://www.linkedin.com/in/bindusara-reddy-890b131b9/" },
-    { img: img21, name: "Sujay Srivastava", role: "Founder", company: "Nexuscare", link: "https://www.linkedin.com/company/nexuscare-01/" },
-    { img: img22, name: "Sujith Kumar", role: "Founder", company: "Kinople", link: "https://www.linkedin.com/in/indian-dream-a126952b8/" },
-    { img: img23, name: "Aditya Ravindran", role: "Founder", company: "Quark", link: "https://www.linkedin.com/in/aditya-ravindran-1b734b211" },
+    { img: img21, name: "Sujay Srivastava", role: "Founder", company: "Nexuscare", link: "https://www.linkedin.com/in/sujaysriv/" },
+    { img: img22, name: "Sujith Kumar", role: "Founder", company: "Kinople", link: "www.linkedin.com/in/sujithkumar505" },
+    { img: img23, name: "Aditya Ravindran", role: "Founder", company: "Quark", link: "https://www.linkedin.com/in/aditya-ravindran-1b734b211?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
     { img: img13, name: "Mohammad Ali", role: "Founder", company: "Karobar", link: "https://www.linkedin.com/company/karobar-ai/" },
   ],
   2023: [
-    { img: img5, name: "Vibhor Jain", role: "Co-Founder", company: "AeroDome Technologies", link: "https://www.linkedin.com/company/aerodome-technologies/" },
-    { img: img6, name: "LOKESH KABDAL", role: "Co-Founder", company: "AeroDome Technologies", link: "https://www.linkedin.com/company/aerodome-technologies/" },
-    { img: img7, name: "ASHOK KUMAR", role: "Co-Founder", company: "Subspace - Grow90", link: "https://www.linkedin.com/company/officialsubspace/" },
-    { img: img8, name: "Raghav Talwar", role: "Founder", company: "Stealth", link: "https://www.linkedin.com/company/startupwiki/+-" },
-    { img: img9, name: "Akash Anand", role: "Co-Founder", company: "Clueso", link: "https://www.linkedin.com/company/clueso/" },
+    { img: img5, name: "Vibhor Jain", role: "Co-Founder", company: "AeroDome Technologies", link: "https://www.linkedin.com/in/vibhor-jain3/" },
+    { img: img6, name: "LOKESH KABDAL", role: "Co-Founder", company: "AeroDome Technologies", link: "https://www.linkedin.com/in/lokesh-kabdal/" },
+    { img: img7, name: "ASHOK KUMAR", role: "Co-Founder", company: "Subspace - Grow90", link: "https://www.linkedin.com/in/ashok-kumar-3168221a9/" },
+    { img: img8, name: "Raghav Talwar", role: "Founder", company: "Stealth", link: "https://www.linkedin.com/in/rgvtalwar/" },
+    { img: img9, name: "Akash Anand", role: "Co-Founder", company: "Clueso", link: "https://www.linkedin.com/in/theakashanand/" },
   ],
   2022: [
-    { img: img4, name: "PRAJWAL PRAKASH", role: "Founder", company: "Clueso", link: "https://www.linkedin.com/company/clueso/" }
+    { img: img4, name: "PRAJWAL PRAKASH", role: "Founder", company: "Clueso", link: "https://www.linkedin.com/in/prajwalprakash2000/" }
   ],
   2020: [
-    { img: img1, name: "YASHWANTH KUMAR", role: "Founder", company: "EdarLabs", link: "https://www.linkedin.com/company/edarlabs/" },
-    { img: img2, name: "RISHABH VERMA", role: "Founder", company: "UrbanMatrix", link: "https://www.linkedin.com/company/urbanmatrix/" },
-    { img: img3, name: "KARAN SACHIN BHANUSHALI", role: "Founder", company: "DbyT Dynamics", link: "https://www.linkedin.com/company/dbyt-dynamics/" }
+    { img: img1, name: "Yashwanth Kumar", role: "Founder", company: "EdarLabs", link: "https://www.linkedin.com/in/yashwanth-kumar-b-57876511b/" },
+    { img: img2, name: "Rishabh Verma", role: "Founder", company: "UrbanMatrix", link: "https://www.linkedin.com/in/rishabh-verma-a14942133/" },
+    { img: img3, name: "Karan Sachin Bhanushali", role: "Founder", company: "DbyT Dynamics", link: "https://www.linkedin.com/in/karanbhanushali55/]" }
   ]
 };
 
@@ -136,7 +136,10 @@ const Ugfir_home = () => {
         </p>
         <p className="text-sm sm:text-base text-justify mb-4 mt-4">
      
-      <strong> Applications are now open – best of luck!</strong> 
+        <div className="flex justify-center items-center text-center">
+  <strong>Applications are now open – best of luck!</strong>
+</div>
+
         </p>
         </div>
 

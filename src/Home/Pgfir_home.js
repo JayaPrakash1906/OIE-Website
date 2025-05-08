@@ -217,7 +217,7 @@ const Pgfir_home = () => {
                   M.S. Scholars
                 </td>
                 <td className="px-4 py-2 border border-green-700 text-sm sm:text-base">
-                  ₹20,000
+                  ₹25,000
                 </td>
                 <td className="px-4 py-2 border border-green-700 text-sm sm:text-base">
                   6 months (extendable by another 6 months)

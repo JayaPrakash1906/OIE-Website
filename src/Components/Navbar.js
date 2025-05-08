@@ -60,12 +60,13 @@ const Navbar = () => {
                 <a href="https://nirmaan.iitm.ac.in/" target="_blank" rel="noopener noreferrer">
                   <button className="block px-4 py-2 hover:bg-gray-200 w-full text-left">Nirmaan</button>
                 </a>
+                <button onClick={() => (window.location.href = "/ms_entrepreneurship/home")} className="block px-4 py-2 hover:bg-gray-200 w-full text-left whitespace-nowrap">
+                  MS (Entrepreneurship)
+                </button>
                 <a href="https://www.youtube.com/@InnovationEntrepreneurship" target="_blank" rel="noopener noreferrer">
                   <button className="block px-4 py-2 hover:bg-gray-200 w-full text-left">Innosphere</button>
                 </a>
-                       <button onClick={() => (window.location.href = "/ms_entrepreneurship/home")} className="block px-4 py-2 hover:bg-gray-200 w-full text-left whitespace-nowrap">
-                  MS (Entrepreneurship)
-                </button> 
+                 
               </div>
             )}
           </div>
@@ -115,37 +116,30 @@ const Navbar = () => {
               <a href="https://nirmaan.iitm.ac.in/" target="_blank" rel="noopener noreferrer">
                 <button className="text-black text-left w-full px-2 py-1 hover:bg-gray-200">Nirmaan</button>
               </a>
+              <button
+                onClick={() => (window.location.href = "/ms_entrepreneurship/home")} className="text-black text-left w-full px-2 py-1 hover:bg-gray-200">
+                MS (Entrepreneurship)
+              </button>
               <a href="https://www.youtube.com/@InnovationEntrepreneurship" target="_blank" rel="noopener noreferrer">
                 <button className="text-black text-left w-full px-2 py-1 hover:bg-gray-200">Innosphere</button>
               </a>
-              <button
-                onClick={() => (window.location.href = "/ms_entrepreneurship/home")}
-                className="text-black text-left w-full px-2 py-1 hover:bg-gray-200"
-              >
-                MS (Entrepreneurship)
-              </button>
+              
             </div>
           )}
 
           {/* Mobile Academics */}
           <button onClick={toggleAcademics} className="text-black text-left w-full font-semibold flex justify-between items-center px-2 py-2">
-            Academics <span>{isAcademicsOpen ? '▲' : '▼'}</span>
+          Scholarship<span>{isAcademicsOpen ? '▲' : '▼'}</span>
           </button>
           {isAcademicsOpen && (
             <div className="pl-4">
-              <button onClick={() => (window.location.href = "/ms_entrepreneurship/home")} className="text-black text-left w-full px-2 py-1 hover:bg-gray-200">
+              {/* <button onClick={() => (window.location.href = "/ms_entrepreneurship/home")} className="text-black text-left w-full px-2 py-1 hover:bg-gray-200">
                 MS (Entrepreneurship)
-              </button>
+              </button> */}
 
-              <button onClick={toggleScholarship} className="text-black text-left w-full font-medium flex justify-between items-center px-2 py-2">
-                Scholarship <span>{isScholarshipOpen ? '▲' : '▼'}</span>
-              </button>
-              {isScholarshipOpen && (
-                <div className="pl-4">
+              
                   <button onClick={() => (window.location.href = "/ugfir/home")} className="text-black text-left w-full px-2 py-1 hover:bg-gray-200">UGFIR</button>
                   <button onClick={() => (window.location.href = "/pgfir/home")} className="text-black text-left w-full px-2 py-1 hover:bg-gray-200">PGFIR</button>
-                </div>
-              )}
             </div>
           )}
 

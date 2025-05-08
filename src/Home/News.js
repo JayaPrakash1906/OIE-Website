@@ -15,7 +15,7 @@ const posts = [
   {
     id: 1,
     title: "CFI Open House 2025: A Celebration of Innovation and Entrepreneurship",
-    date: "15th Feb 2025",
+    date: "15th Mar 2025",
     image: img8,
     content: "CFI Open House 2025 showcased groundbreaking innovations, entrepreneurial ventures, and inspiring student achievements.",
     link:"https://www.linkedin.com/posts/office-of-innovation-and-entrepreneurship_startup-products-ideas-activity-7307278723890720768-CpJh?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFikn4B6jA0Ct1Y84TowFZRR2JHg75s9fg"
