@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../Components/Navbar';
+import Footer from '../Components/Footer';
 import img1 from "../Assets/news1.png";
 import img2 from '../Assets/news2.png';
 import img3 from '../Assets/news3.png';
@@ -141,8 +142,9 @@ function App() {
             </div>
           ))}
         </div>
-      </div>
+      </div><Footer/>
     </div>
+    
   );
 }
 

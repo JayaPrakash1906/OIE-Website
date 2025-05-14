@@ -14,7 +14,7 @@ const Ms_Entrepreneurship = () => {
           Applications are welcome for the PGFIR 2025
         </h2>
       </div>
-
+  
       {/* Background Image Header */}
       <div
         className="w-full h-[250px] text-white relative"
