@@ -4,13 +4,15 @@ import Img2 from '../Assets/nirmaan logo.png';
 import Img3 from '../Assets/iitm logo.png';
 
 const Ms_Entrepreneurship = () => {
-  const applyLink = 'https://forms.gle/fG8ZWLV7TQYdTrTi9'; // <-- Replace with your real link
+  const applyLink = 'https://forms.gle/fG8ZWLV7TQYdTrTi9';
 
   return (
-    <div>
+    <div className="w-full overflow-x-hidden">
       {/* Banner */}
       <div className="text-center bg-green-100 py-2">
-        <h2 className="text-lg font-bold animate-marquee font-dmsans">Applications are welcome for the UGFIR 2025</h2>
+        <h2 className="text-lg font-bold animate-marquee font-dmsans">
+          Applications are welcome for the UGFIR 2025
+        </h2>
       </div>
 
       {/* Background Image Header */}
@@ -23,38 +25,35 @@ const Ms_Entrepreneurship = () => {
           backgroundRepeat: 'no-repeat',
         }}
       >
-        <div className="flex flex-col h-full bg-black bg-opacity-40 relative z-10">
+        <div className="flex flex-col h-full w-full bg-black bg-opacity-40 relative z-10">
           {/* Navbar */}
-          <div className="px-4 md:px-6 pt-4 flex justify-between items-center">
-            <div className="ml-auto">
-              <a
-                href={applyLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-white text-black px-4 sm:px-6 py-2 rounded text-sm sm:text-base font-semibold hover:scale-[1.02] transition-all ease-in-out"
-              >
-                Apply Now
-              </a>
-            </div>
+          <div className="px-4 md:px-6 pt-4 flex justify-end items-center">
+            <a
+              href={applyLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white text-black px-4 sm:px-6 py-2 rounded text-sm sm:text-base font-semibold hover:scale-[1.02] transition-all ease-in-out"
+            >
+              Apply Now
+            </a>
           </div>
 
           {/* Main Heading */}
           <div className="flex items-center justify-center flex-grow text-center px-4 relative z-10">
-            <div className="flex flex-row items-center space-x-4 flex-wrap justify-center">
+            <div className="flex flex-row items-center justify-center space-x-4 w-full max-w-5xl mx-auto overflow-x-auto">
               <img
                 src={Img3}
                 alt="IITM Logo"
-                className="h-20 w-20 sm:h-24 sm:w-24 object-contain"
+                className="h-16 w-16 sm:h-20 sm:w-20 object-contain flex-shrink-0"
               />
               <img
                 src={Img2}
                 alt="Nirmaan Logo"
-                className="h-20 w-20 sm:h-24 sm:w-24 object-contain"
+                className="h-16 w-16 sm:h-20 sm:w-20 object-contain flex-shrink-0"
               />
-              <div className="text-center sm:text-left mt-4 sm:mt-0">
-                <h1 className="text-3xl sm:text-4xl md:text-5xl">UGFIR Scholarship</h1>
-                {/* <p className="text-lg sm:text-xl md:text-2xl mt-1">May 2025 Batch Admission Cycle</p> */}
-              </div>
+              <h1 className="text-2xl sm:text-4xl md:text-5xl whitespace-nowrap">
+                UGFIR Scholarship
+              </h1>
             </div>
           </div>
         </div>
@@ -64,6 +63,7 @@ const Ms_Entrepreneurship = () => {
 };
 
 export default Ms_Entrepreneurship;
+
 
 
 

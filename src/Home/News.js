@@ -9,7 +9,9 @@ import img6 from '../Assets/news6.png';
 import img7 from '../Assets/news7.png';
 import img8 from '../Assets/news8.png';
 import img9 from '../Assets/news9.png';
-
+import img10 from '../Assets/news10.png';
+import img11 from '../Assets/news11.jpg';
+import img12 from '../Assets/news12.jpeg';
 const posts = [
 
   {
@@ -21,7 +23,15 @@ const posts = [
     link:"https://www.linkedin.com/posts/office-of-innovation-and-entrepreneurship_startup-products-ideas-activity-7307278723890720768-CpJh?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFikn4B6jA0Ct1Y84TowFZRR2JHg75s9fg"
   },
   {
-    id: 1,
+    id: 2,
+    title: "Delegates from Kenya, Tanzania & UK Join Immersion Program at IIT Madras",
+    date: "3rd Mar 2025",
+    image: img10,
+    content: "Delegates from Kenya, Tanzania, and the UK embark on a 2-week innovation and entrepreneurship immersion at IIT Madras under a landmark quadrilateral MoU.",
+    link:"https://www.linkedin.com/posts/office-of-innovation-and-entrepreneurship_kenya-tanzania-uk-activity-7304081419499159552-OwfS?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFikn4B6jA0Ct1Y84TowFZRR2JHg75s9fg"
+  },
+  {
+    id: 3,
     title: "Stellantis, Raftar & CFI Gift EV to IIT Madras for Innovation & Research",
     date: "07th Feb 2025",
     image: img5,
@@ -29,7 +39,7 @@ const posts = [
     link:"https://www.linkedin.com/posts/office-of-innovation-and-entrepreneurship_cfi-ev-cifi-activity-7293812677972303872-VFVQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFikn4B6jA0Ct1Y84TowFZRR2JHg75s9fg"
   },
   {
-    id: 2,
+    id: 4,
     title: "Raftar's Triumph: Leading the Charge in EV Innovation! ",
     date: "22nd Jan 2025",
     image: img6,
@@ -38,7 +48,7 @@ const posts = [
 
   },
   {
-    id: 3,
+    id: 5,
     title: "A Glimpse of IIT Madras Open House 2025",
     date: "3rd & 4th Jan 2025",
     image: img7,
@@ -47,7 +57,7 @@ const posts = [
 
   },
   {
-    id: 4,
+    id: 6,
     title: "CSR Awards & Summit 2024",
     date: "13th Dec 2024",
     image: img4,
@@ -56,7 +66,7 @@ const posts = [
   },
  
   {
-    id: 5,
+    id: 7,
     title: "Research Conclave 2024",
     date: "26th Oct 2024",
     image: img1,
@@ -65,7 +75,7 @@ const posts = [
   },
   
   {
-    id: 7,
+    id: 8,
     title: " The Energy Consortium - IIT Madras",
     date: "29th Oct 2024",
     image: img3,
@@ -73,7 +83,7 @@ const posts = [
     link: "https://www.linkedin.com/posts/the-energy-consortium-iit-madras_eonatiitmadras-sustainablefuture-energytransition-ugcPost-7257334664070135809-vdzj?utm_source=share&utm_medium=member_desktop"
   },
   {
-    id: 6,
+    id: 9,
     title: "NIRMAAN IITM at Demo Day 2024: A Celebration of Innovation & Impact",
     date: "27th Sep 2024",
     image: img9,
@@ -81,12 +91,28 @@ const posts = [
     link: "https://www.linkedin.com/posts/office-of-innovation-and-entrepreneurship_demoday2024-innovationhub-iot-activity-7247916838716596224-RFf_?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFikn4B6jA0Ct1Y84TowFZRR2JHg75s9fg"
   },
   {
-    id: 6,
+    id: 10,
     title: "Investor-Startup meet from IITMIC",
     date: "18th Sep 2024",
     image: img2,
     content: " Our incubated startups—Plenome, Matterize and Interacts AI showcased their innovations and had meaningful one-on-one discussions with the investors.",
     link: "https://www.linkedin.com/posts/iitm-incubation-cell_iitmic-deeptech-iitmstartups-activity-7251916041113518081-T7z-?utm_source=share&utm_medium=member_desktop"
+  },
+  {
+    id: 11,
+    title: "IITM Startup Shatam Series- Success talk celebrating Agnicul",
+    date: "20th Aug 2024",
+    image: img11,
+    content: "Team Abhyuday and Inbound Aerospace hosted a success meet with AgniKul Cosmos, celebrating their historic Agnibaan launch and unveiling IITM’s first Innosphere magazine ",
+    link:"https://www.linkedin.com/posts/office-of-innovation-and-entrepreneurship_startups-agnibaan-iitm-activity-7231999312501596161-lEw3?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFikn4B6jA0Ct1Y84TowFZRR2JHg75s9fg"
+  },
+  {
+    id: 12,
+    title: "Innovating Melodies with A. R. Rahman",
+    date: "1st Aug 2024",
+    image: img12,
+    content: "A.R. Rahman interacted with teams from NIRMAAN IITM, Centre For Innovation, Plenome, and Ewebstore.in. ",
+    link:"https://www.linkedin.com/posts/office-of-innovation-and-entrepreneurship_issaipuyal-innovation-vr-activity-7224961542780338176-tBxG?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFikn4B6jA0Ct1Y84TowFZRR2JHg75s9fg"
   },
 ];
 
@@ -104,11 +130,11 @@ function App() {
               <a href={post.link} className="block"target="_blank" rel="noopener noreferrer">
                 <img className="w-full h-48 object-cover" src={post.image} alt={post.title} />
                 <div className="p-4">
-                  <div className="flex items-center space-x-2 text-gray-500 text-sm">
+                  <div className="flex items-center space-x-2 text-gray-500 text-sm font-dmsans">
                     <span>{post.date}</span>
                   </div>
-                  <h2 className="text-xl font-semibold mt-2">{post.title}</h2>
-                  {post.content && <p className="mt-1 text-gray-700">{post.content}</p>}
+                  <h2 className="text-xl font-semibold mt-2 font-dmsans">{post.title}</h2>
+                  {post.content && <p className="mt-1 text-gray-700 font-dmsans">{post.content}</p>}
                   <span className="sr-only">Read more about {post.title}</span>
                 </div>
               </a>
