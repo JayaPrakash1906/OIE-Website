@@ -7,7 +7,7 @@ import img3 from "../Assets/kgmg2020-3.jpg";
 import img4 from "../Assets/kgmg2020-4.jpg";
 import img5 from "../Assets/kgmg2020-5.jpg";
 import img6 from "../Assets/kgmg2020-6.jpg";
-import img7 from "../Assets/ugfir-4.png";
+import img7 from "../Assets/prabhakaran_thiruvenkadam.jpg";
 import img8 from "../Assets/kgmg2021-1.jpg";
 import img9 from "../Assets/kgmg2022-1.jpg";
 import img10 from "../Assets/kgmg2022-2.jpg";
@@ -16,6 +16,8 @@ import img12 from "../Assets/kgmg2023-2.jpg";
 import img13 from "../Assets/kgmg2023-3.jpg";
 import img14 from "../Assets/kgmg2023-4.jpg";
 import img15 from "../Assets/kgmg2024-1.jpg";
+import img16 from "../Assets/vijayakumar_pedirela.png"
+
 
 const cohortData = {
   2024: [
@@ -79,10 +81,10 @@ const cohortData = {
       name: "Prabaharan T",
       role: "PhD ",
       company: "",
-      link: "https://www.linkedin.com/in/prabaharan-t-b77982155/",
+      link: "https://www.linkedin.com/in/prabaharan-thiruvengetam-50452b88/?originalSubdomain=uk",
     },
     {
-      img: img7,
+      img: img16,
       name: "Vijaykumar Pediredla",
       role: "PhD.Telerobotics, Haptics and Advanced control system design",
       company: "",
@@ -311,76 +313,64 @@ const Pgfir_home = () => {
         </div>
 
       {/* Fellowship Gallery Section */}
-      <div className="text-center py-10 px-4 sm:px-6 mt-12">
-        <h2 className="text-3xl sm:text-4xl font-bold text-green-700 mb-4 font-dmsans">
-          Fellowship Gallery
-        </h2>
-        <select
-          value={selectedYear}
-          onChange={(e) => setSelectedYear(e.target.value)}
-          className="border border-gray-300 rounded-md px-4 py-2 text-sm shadow-sm focus:outline-none"
-        >
-          {Object.keys(cohortData)
-            .sort((a, b) => b - a)
-            .map((year) => (
-              <option key={year} value={year}>
-                {year}
-              </option>
-            ))}
-        </select>
-      </div>
+    {/* Fellowship Gallery Section */}
+<div className="text-center py-10 px-4 sm:px-6 mt-12">
+  <h2 className="text-3xl sm:text-4xl font-bold text-green-700 mb-4 font-dmsans">
+    Fellowship Gallery
+  </h2>
+</div>
 
-      <div className="px-6 sm:px-10 pb-16">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          {cohortData[selectedYear]?.length > 0 ? (
-            cohortData[selectedYear].map((member, index) => (
-              <div
-                key={index}
-                className="bg-white rounded-2xl shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300 p-5 text-center"
-              >
-                <div className="relative mx-auto w-32 h-32 mb-4 overflow-hidden rounded-full">
-                  <img
-                    src={member.img}
-                    alt={member.name}
-                    className="object-cover w-full h-full transition-all duration-500 hover:brightness-50"
-                  />
-                  
-                </div>
-                <h3 className="text-lg font-semibold text-green-700">{member.name}</h3>
-                 <div className="flex justify-center gap-4 mt-2">
-                  {member.link && (
-                    <a
-                      href={member.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label="LinkedIn Profile"
-                    >
-                      <FaLinkedin size={24} className="text-blue-600 hover:text-blue-800 transition-colors" />
-                    </a>
-                  )}
-                  {member.website && (
-                    <a
-                      href={member.website}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label="Website"
-                    >
-                      <FaGlobe size={22} className="text-gray-600 hover:text-gray-800 transition-colors" />
-                    </a>
-                  )}
-                </div>
-                
-                <p className="text-sm text-gray-600">{member.role}</p>
-                <p className="text-sm font-medium text-gray-500">{member.company}</p>
-              </div>
-            ))
-          ) : (
-            <p className="col-span-full text-center text-gray-500">
-              No data available for {selectedYear}
-            </p>
-          )}
-        </div>
+{Object.keys(cohortData)
+  .sort((a, b) => b - a)
+  .map((year) => (
+    <div key={year} className="px-6 sm:px-10 pb-16">
+      <h3 className="text-xl sm:text-2xl font-semibold text-green-600 mb-6 ml-16">
+        {year}
+      </h3>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        {cohortData[year].map((member, index) => (
+          <div
+            key={index}
+            className="bg-white rounded-2xl shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300 p-5 text-center"
+          >
+            <div className="relative mx-auto w-32 h-32 mb-4 overflow-hidden rounded-full">
+              <img
+                src={member.img}
+                alt={member.name}
+                className="object-cover w-full h-full transition-all duration-500 hover:brightness-50"
+              />
+            </div>
+            <h3 className="text-lg font-semibold text-green-700">{member.name}</h3>
+            <div className="flex justify-center gap-4 mt-2">
+              {member.link && (
+                <a
+                  href={member.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn Profile"
+                >
+                  <FaLinkedin size={24} className="text-blue-600 hover:text-blue-800 transition-colors" />
+                </a>
+              )}
+              {member.website && (
+                <a
+                  href={member.website}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Website"
+                >
+                  <FaGlobe size={22} className="text-gray-600 hover:text-gray-800 transition-colors" />
+                </a>
+              )}
+            </div>
+            <p className="text-sm text-gray-600">{member.role}</p>
+            <p className="text-sm font-medium text-gray-500">{member.company}</p>
+          </div>
+        ))}
       </div>
+    </div>
+))}
+
     </div>
   );
 };
