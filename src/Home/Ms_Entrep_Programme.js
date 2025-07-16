@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../Components/Ms_Navbar_Programme'
-import img1 from '../Assets/process.png'
+import img1 from '../Assets/Activities/process.png'
 
 const Ms_Entrep_Programme = () => {
   return (

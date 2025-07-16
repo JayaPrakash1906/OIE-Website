@@ -1,10 +1,10 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
-import img1 from "../Assets/Tech_Meet.jpg";
-import img2 from '../Assets/about middle.jpg';
-import img3 from '../Assets/about img.jpg';
-import img4 from "../Assets/Nandhini.jpeg";
-import img5 from '../Assets/prajagopal.jpg'
+import img1 from "../Assets/About/Tech_Meet.jpg";
+import img2 from '../Assets/About/about middle.jpg';
+import img3 from '../Assets/About/about img.jpg';
+import img4 from "../Assets/About/Nandhini.jpeg";
+import img5 from '../Assets/About/prajagopal.jpg'
 import {  FaHotTubPerson, FaPerson, FaPersonDotsFromLine, FaRegLightbulb, FaSeedling } from 'react-icons/fa6';
 import { FaBeer, FaIdeal, FaThinkPeaks } from 'react-icons/fa';
 import Footer from '../Components/Footer';
@@ -130,7 +130,7 @@ const About  = () => {
             className="w-full h-[200px] rounded shadow-lg"
           />
           <h1 className="text-blue-600 font-dmsans font-semibold text-center mt-2">
-            Dr. Prabhu Rajagopal
+            Prof. Prabhu Rajagopal
           </h1>
           <h2 className="font-dmsans text-center">Faculty Advisor</h2>
         </div>

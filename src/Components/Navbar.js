@@ -60,7 +60,7 @@ const Navbar = () => {
                 <a href="https://nirmaan.iitm.ac.in/" target="_blank" rel="noopener noreferrer">
                   <button className="block px-4 py-2 hover:bg-gray-200 w-full text-left">Nirmaan</button>
                 </a>
-                <button onClick={() => (window.location.href = "/ms_entrepreneurship/home")} className="block px-4 py-2 hover:bg-gray-200 w-full text-left whitespace-nowrap">
+                <button onClick={() => (window.location.href = "/ms_entrepreneurship/home")} className="block px-4 py-2 hover:bg-gray-200 w-full text-left  whitespace-nowrap">
                   MS (Entrepreneurship)
                 </button>
                 <a href="https://www.youtube.com/@InnovationEntrepreneurship" target="_blank" rel="noopener noreferrer">

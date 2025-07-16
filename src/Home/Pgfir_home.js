@@ -1,28 +1,28 @@
 import React, { useState } from "react";
 import Navbar from "../Components/PGFIR_Navbar";
 import { FaLinkedin, FaGlobe } from "react-icons/fa";
-import img1 from "../Assets/kgmg2020-1.jpg";
-import img2 from "../Assets/kgmg2020-2.jpg";
-import img3 from "../Assets/kgmg2020-3.jpg";
-import img4 from "../Assets/kgmg2020-4.jpg";
-import img5 from "../Assets/kgmg2020-5.jpg";
-import img6 from "../Assets/kgmg2020-6.jpg";
-import img7 from "../Assets/prabhakaran_thiruvenkadam.jpg";
-import img8 from "../Assets/kgmg2021-1.jpg";
-import img9 from "../Assets/kgmg2022-1.jpg";
-import img10 from "../Assets/kgmg2022-2.jpg";
-import img11 from "../Assets/kgmg2023-1.jpg";
-import img12 from "../Assets/kgmg2023-2.jpg";
-import img13 from "../Assets/kgmg2023-3.jpg";
-import img14 from "../Assets/kgmg2023-4.jpg";
-import img15 from "../Assets/kgmg2024-1.jpg";
-import img16 from "../Assets/vijayakumar_pedirela.png"
+import img1 from "../Assets/Scholorship/PGFIR/kgmg2020-1.jpg";
+import img2 from "../Assets/Scholorship/PGFIR/kgmg2020-2.jpg";
+import img3 from "../Assets/Scholorship/PGFIR/kgmg2020-3.jpg";
+import img4 from "../Assets/Scholorship/PGFIR/kgmg2020-4.jpg";
+import img5 from "../Assets/Scholorship/PGFIR/kgmg2020-5.jpg";
+import img6 from "../Assets/Scholorship/PGFIR/kgmg2020-6.jpg";
+import img7 from "../Assets/Scholorship/PGFIR/kgmg2021-1.jpg";
+import img8 from "../Assets/Scholorship/PGFIR/kgmg2021-2.png";
+import img9 from "../Assets/Scholorship/PGFIR/kgmg2021-3.jpg";
+import img10 from "../Assets/Scholorship/PGFIR/kgmg2022-1.jpg";
+import img11 from "../Assets/Scholorship/PGFIR/kgmg2022-2.jpg";
+import img12 from "../Assets/Scholorship/PGFIR/kgmg2023-1.jpg";
+import img13 from "../Assets/Scholorship/PGFIR/kgmg2023-2.jpg";
+import img14 from "../Assets/Scholorship/PGFIR/kgmg2023-3.jpg";
+import img15 from "../Assets/Scholorship/PGFIR/kgmg2023-4.jpg";
+import img16 from "../Assets/Scholorship/PGFIR/kgmg2024-1.jpg";
 
 
 const cohortData = {
   2024: [
     {
-      img: img15,
+      img: img16,
       name: "Muthu Kumar K",
       role: "PhD",
       company: "",
@@ -31,28 +31,28 @@ const cohortData = {
   ],
   2023: [
     {
-      img: img11,
+      img: img12,
       name: "Vijayaraja R",
       role: "MS in Entrepreneurship, Blockchain for Healthcare",
       company: "",
       link: "https://www.linkedin.com/in/vijayaraja-rathinasamy/",
     },
     {
-      img: img12,
+      img: img13,
       name: "Panchal Nikhilkumar Rajnikantbhai",
       role: "MS, Chemical Engineering",
       company: "",
       link: "https://www.linkedin.com/in/nikhilpanchal/?originalSubdomain=in",
     },
     {
-      img: img13,
+      img: img14,
       name: "ARAVIND I B",
       role: "MS, Aerospace, Aeronautical and Astronautical/Space Engineering",
       company: "",
       link: "https://www.linkedin.com/in/aravindib/?originalSubdomain=in",
     },
     {
-      img: img14,
+      img: img15,
       name: "Sourav Singha Roy",
       role: "PhD, Organometallics and Polymer",
       company: "",
@@ -61,14 +61,14 @@ const cohortData = {
   ],
   2022: [
     {
-      img: img9,
+      img: img10,
       name: "Balamurugan L ",
       role: "MS, Metallurgical Engineering",
       company: "",
       link: "https://www.linkedin.com/in/intelaegis/?originalSubdomain=in",
     },
     {
-      img: img10,
+      img: img11,
       name: "SivaSubramanian M",
       role: " MS , Entrepreneurship by research",
       company: "",
@@ -84,14 +84,14 @@ const cohortData = {
       link: "https://www.linkedin.com/in/prabaharan-thiruvengetam-50452b88/?originalSubdomain=uk",
     },
     {
-      img: img16,
+      img: img8,
       name: "Vijaykumar Pediredla",
       role: "PhD.Telerobotics, Haptics and Advanced control system design",
       company: "",
       link: "https://www.linkedin.com/in/vijay-kumar-pediredla-ph-d-657435112/?originalSubdomain=ca",
     },
     {
-      img: img8,
+      img: img9,
       name: " Srinivasa Rakesh ",
       role: "PhD ",
       company: "",

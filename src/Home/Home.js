@@ -2,20 +2,20 @@ import React from "react";
 import Navbar from "../Components/Navbar";
 import { GrBookmark } from "react-icons/gr";
 import Footer from "../Components/Footer";
-import img1 from "../Assets/home_img1.jpg";
-import img2 from "../Assets/home_img2.jpg";
-import img3 from "../Assets/home_img3.jpg";
-import img4 from "../Assets/home_img4.jpg";
-import img5 from "../Assets/home_img5.jpg";
-import img6 from "../Assets/home_img6.jpg";
-import img7 from "../Assets/home_img7.jpg";
-import img8 from "../Assets/home_img8.jpg";
-import img9 from "../Assets/Director.jpg";
-import img10 from "../Assets/prajagopal.jpeg";
-import img11 from "../Assets/nirmaan logo.png";
-import img12 from "../Assets/Nirmaan image.jpg";
-import img13 from "../Assets/CFI Logo.jpg";
-import img14 from "../Assets/cfi image.jpg";
+import img1 from "../Assets/Home/home_img1.jpg";
+import img2 from "../Assets/Home/home_img2.jpg";
+import img3 from "../Assets/Home/home_img3.jpg";
+import img4 from "../Assets/Home/home_img4.jpg";
+import img5 from "../Assets/Home/home_img5.jpg";
+import img6 from "../Assets/Home/home_img6.jpg";
+import img7 from "../Assets/Home/home_img7.jpg";
+import img8 from "../Assets/Home/home_img8.jpg";
+import img9 from "../Assets/Home/Director.jpg";
+import img10 from "../Assets/Home/prajagopal.jpeg";
+import img11 from "../Assets/Home/nirmaan logo.png";
+import img12 from "../Assets/Home/Nirmaan image.jpg";
+import img13 from "../Assets/Home/CFI Logo.jpg";
+import img14 from "../Assets/Home/cfi image.jpg";
 
 const Home = () => {
   return (
@@ -96,7 +96,7 @@ const Home = () => {
 
 <div className="uppercase text-black mt-[150px] text-center font-bold font-dmsans text-4xl sm:text-3xl md:text-4xl opacity-0 translate-y-6 animate-fade-in-up">
   office of innovation and
-  <span className="block mt-4">ENTREPRENEURSHIP</span>
+  <span className="block mt-4 uppercase"> entrepreneurship</span>
 </div>
 
 <div className="opacity-0 translate-y-6 animate-fade-in-up delay-200">
@@ -236,7 +236,7 @@ const Home = () => {
     <img
       className="w-72 h-56 md:w-[340px] md:h-[260px] rounded-xl"
       src={img12}
-      alt="Nirmaan Image"
+      alt="nirmaan_image"
     />
   </div>
 </div>
@@ -278,7 +278,7 @@ const Home = () => {
     <img
       className="w-72 h-56 md:w-[340px] md:h-[260px] rounded-xl"
       src={img14}
-      alt="CFI Image"
+      alt="centre_for_innovation_image"
     />
   </div>
 </div>

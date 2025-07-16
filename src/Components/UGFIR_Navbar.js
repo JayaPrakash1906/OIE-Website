@@ -1,7 +1,7 @@
 import React from 'react';
-import Img1 from '../Assets/green_bg.webp';
-import Img2 from '../Assets/nirmaan logo.png';
-import Img3 from '../Assets/iitm logo.png';
+import Img1 from '../Assets/Scholorship/green_bg.webp';
+import Img2 from '../Assets/Scholorship/nirmaan logo.png';
+import Img3 from '../Assets/Scholorship/iitm logo.png';
 
 const Ms_Entrepreneurship = () => {
   const applyLink = 'https://forms.gle/fG8ZWLV7TQYdTrTi9';

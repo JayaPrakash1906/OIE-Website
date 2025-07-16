@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../Components/Navbar';
-import Img1 from '../Assets/Sudha&Shankar.jpg'
+import Img1 from '../Assets/Contact/Sudha&Shankar.jpg'
 import Footer from '../Components/Footer';
 
 const Contact = () => {

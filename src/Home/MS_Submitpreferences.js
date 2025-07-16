@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../Components/Ms_Navbar_submitpreference';
-import formImage from '../Assets/application_Ms.png'; // Make sure this file exists
+import formImage from '../Assets/Activities/application_Ms.png'; // Make sure this file exists
 
 const MS_Submitpreferences = () => {
   return (

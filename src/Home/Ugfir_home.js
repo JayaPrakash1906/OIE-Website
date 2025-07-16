@@ -3,29 +3,29 @@ import Navbar from "../Components/UGFIR_Navbar";
 import { FaLinkedin, FaGlobe } from "react-icons/fa";
 
 // Images
-import img1 from "../Assets/2020-1.jpg";
-import img2 from "../Assets/2020-2.jpg";
-import img3 from "../Assets/2020-3.jpg";
-import img4 from "../Assets/2022-1.jpg";
-import img5 from "../Assets/2023-1.jpg";
-import img6 from "../Assets/2023-2.jpg";
-import img7 from "../Assets/2023-3.jpg";
-import img8 from "../Assets/2023-5.jpg";
-import img9 from "../Assets/2023-6.jpg";
-import img10 from "../Assets/ugfir-1.jpg";
-import img11 from "../Assets/ugfir-2.jpg";
-import img12 from "../Assets/ugfir-3.jpg";
-import img13 from "../Assets/ugfir-4.png";
-import img14 from "../Assets/ugfir-5.jpg";
-import img15 from "../Assets/ugfir-6.jpg";
-import img16 from "../Assets/ugfir-7.jpg";
-import img17 from "../Assets/ugfir-8.jpg";
-import img18 from "../Assets/ugfir-9.jpg";
-import img19 from "../Assets/ugfir-10.jpg";
-import img20 from "../Assets/ugfir-11.jpg";
-import img21 from "../Assets/ugfir-12.jpg";
-import img22 from "../Assets/ugfir-13.jpg";
-import img23 from "../Assets/ugfir-14.jpg";
+import img1 from "../Assets/Scholorship/UGFIR/ugfir_2020-1.jpg";
+import img2 from "../Assets/Scholorship/UGFIR/ugfir_2020-2.jpg";
+import img3 from "../Assets/Scholorship/UGFIR/ugfir_2020-3.jpg";
+import img4 from "../Assets/Scholorship/UGFIR/ugfir_2022-1.jpg";
+import img5 from "../Assets/Scholorship/UGFIR/ugfir_2023-1.jpg";
+import img6 from "../Assets/Scholorship/UGFIR/ugfir_2023-2.jpg";
+import img7 from "../Assets/Scholorship/UGFIR/ugfir_2023-3.jpg";
+import img8 from "../Assets/Scholorship/UGFIR/ugfir_2023-4.jpg";
+import img9 from "../Assets/Scholorship/UGFIR/ugfir_2023-5.jpg";
+import img10 from "../Assets/Scholorship/UGFIR/ugfir_2024-1.jpg";
+import img11 from "../Assets/Scholorship/UGFIR/ugfir_2024-2.jpg";
+import img12 from "../Assets/Scholorship/UGFIR/ugfir_2024-3.jpg";
+import img13 from "../Assets/Scholorship/UGFIR/ugfir_2024-4.png";
+import img14 from "../Assets/Scholorship/UGFIR/ugfir_2024-5.jpg";
+import img15 from "../Assets/Scholorship/UGFIR/ugfir_2024-6.jpg";
+import img16 from "../Assets/Scholorship/UGFIR/ugfir_2024-7.jpg";
+import img17 from "../Assets/Scholorship/UGFIR/ugfir_2024-8.jpg";
+import img18 from "../Assets/Scholorship/UGFIR/ugfir_2024-9.jpg";
+import img19 from "../Assets/Scholorship/UGFIR/ugfir_2024-10.jpg";
+import img20 from "../Assets/Scholorship/UGFIR/ugfir_2024-11.jpg";
+import img21 from "../Assets/Scholorship/UGFIR/ugfir_2024-12.jpg";
+import img22 from "../Assets/Scholorship/UGFIR/ugfir_2024-13.jpg";
+import img23 from "../Assets/Scholorship/UGFIR/ugfir_2024-14.jpg";
 
 const cohortData = {
   2024: [

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Img1 from '../Assets/bg.jpg';
+import Img1 from '../Assets/Activities/bg.jpg';
 import Img2 from '../Assets/iitm logo.png';
 import { FaSearch, FaBars, FaTimes } from 'react-icons/fa';
 
