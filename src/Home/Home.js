@@ -34,7 +34,7 @@ const Home = () => {
       <Navbar />
 
       {/* Popup Modal */}
-      {showPopup && (
+      {/* {showPopup && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60">
           <div className="bg-white rounded-lg overflow-hidden shadow-xl relative w-[90%] max-w-[500px]">
             <button
@@ -51,7 +51,7 @@ const Home = () => {
             />
           </div>
         </div>
-      )}
+      )} */}
 
       <div className="uppercase text-blue-600 mt-[200px] text-center font-bold font-dmsans text-5xl fade-in">
         Where ideas and
@@ -164,7 +164,7 @@ const Home = () => {
           </div>
           <div className="mt-4 font-dmsans text-base md:text-lg px-4 md:px-0 text-justify">
             <p>
-              Nirmaan, The Pre-incubator of IIT Madras, is the first of its kind dedicated pre-incubator on a college campus in the country...
+              Nirmaan, The Pre-incubator of IIT Madras, is the first of its kind dedicated pre-incubator on a college campus in the country. Its primary objective is to provide technical guidance and business mentorship to student teams, assisting them in refining their business ideas to achieve both technical robustness and economic viability. In addition to offering a well-equipped collaborative workspace and essential financial support, Nirmaan cultivates a supportive and encouraging environment conducive to innovation. Furthermore, the program facilitates valuable connections between nascent startups and experienced mentors who provide specialized technical and business insights, crucial for translating ideas into successful businesses.
             </p>
           </div>
           <div className="flex justify-center md:justify-start items-start">
@@ -189,7 +189,7 @@ const Home = () => {
           </div>
           <div className="mt-4 font-dmsans text-base md:text-lg px-4 md:px-0 text-justify">
             <p>
-              The Centre for Innovation (CFI) at IIT Madras is a pioneering student-led "Tinker Lab"...
+              The Centre for Innovation (CFI) at IIT Madras is a pioneering student-led `Tinker Lab` and one of the oldest academic entities dedicated to “Doing by Learning”. Established by the alumni class of 1981, CFI has expanded over the past fifteen years into a central hub focusing on nurturing innovation and technological inventions. The centre is structured around approximately 14 'Hobby' clubs and 8 competition teams, complemented by additional teams offering expertise in branding, engagement, finance, and web operations/coding support.
             </p>
           </div>
           <div className="flex justify-center md:justify-start items-start">

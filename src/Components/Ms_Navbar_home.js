@@ -49,9 +49,9 @@ const Ms_Entrepreneurship = () => {
               {[
                 { path: '/ms_entrepreneurship/home', label: 'Home' },
                 { path: '/ms_entrepreneurship/selection-list', label: 'Selection List July 2025' },
-                { path: '/submit-preferences', label: 'Submit Preferences' },
+                // { path: '/submit-preferences', label: 'Submit Preferences' },
                 { path: '/resources', label: 'Resources @IITM' },
-                { path: '/programme-structure', label: 'Programme Structure' },
+                // { path: '/programme-structure', label: 'Programme Structure' },
               ].map(({ path, label }) => (
                 <button
                   key={path}
@@ -63,9 +63,9 @@ const Ms_Entrepreneurship = () => {
                   {label}
                 </button>
               ))}
-              <span className="cursor-pointer" onClick={() => navigate('/search')}>
+              {/* <span className="cursor-pointer" onClick={() => navigate('/search')}>
                 <FaSearch />
-              </span>
+              </span> */}
             </div>
           </div>
 
@@ -87,9 +87,9 @@ const Ms_Entrepreneurship = () => {
             {[
               { path: '/ms_entrepreneurship/home', label: 'Home' },
               { path: '/ms_entrepreneurship/selection-list', label: 'Selection List July 2025' },
-              { path: '/submit-preferences', label: 'Submit Preferences' },
+              // { path: '/submit-preferences', label: 'Submit Preferences' },
               { path: '/resources', label: 'Resources @IITM' },
-              { path: '/programme-structure', label: 'Programme Structure' },
+              // { path: '/programme-structure', label: 'Programme Structure' },
             ].map(({ path, label }) => (
               <button
                 key={path}
@@ -101,9 +101,9 @@ const Ms_Entrepreneurship = () => {
                 {label}
               </button>
             ))}
-            <span className="cursor-pointer" >
+            {/* <span className="cursor-pointer" >
               <FaSearch />
-            </span>
+            </span> */}
           </div>
         )}
       </div>

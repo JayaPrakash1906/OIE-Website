@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../Components/Ms_Navbar_home'
+import img1 from '../Assets/Activities/process.png'
 
 const MS_Entrepreneurship_home = () => {
   return (
@@ -57,10 +58,20 @@ const MS_Entrepreneurship_home = () => {
           align with your interests and background. Once you’ve made your selection, kindly submit your preferences using
           the ‘Submit Preferences’ button at the top of the page. Shortlisted applicants will be invited for an interview.
         </p>
+         <div className="text-left py-6 px-4 md:px-20 lg:px-40 mt-10 font-dmsans">
+              <h1 className="text-2xl font-semibold text-sky-700 mb-4">
+                The final Thesis submitted will cover the following aspects for award of degree
+              </h1>
+              <img
+                src={img1}
+                alt="Application Process Flow"
+                className="rounded-md mt-8 w-full max-w-4xl mx-auto"
+              />
+            </div>
       </div>
 
       {/* Projects Table */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-20 lg:px-32">
+      {/* <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-20 lg:px-32">
         <h1 className="text-xl sm:text-2xl font-semibold text-sky-700 mb-4">
           List of Projects Available for 2025 July Admissions
         </h1>
@@ -127,7 +138,8 @@ const MS_Entrepreneurship_home = () => {
           </table>
         </div>
         <div className='mt-4'></div>
-      </div>
+      </div> */}
+     
     </div>
   )
 }

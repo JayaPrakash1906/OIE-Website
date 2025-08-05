@@ -14,9 +14,9 @@ const Ms_Entrepreneurship = () => {
   const navLinks = [
     { name: 'Home', path: '/ms_entrepreneurship/home' },
     { name: 'Selection List July 2025', path: '/ms_entrepreneurship/selection-list' },
-    { name: 'Submit Preferences', path: '/submit-preferences' },
+    // { name: 'Submit Preferences', path: '/submit-preferences' },
     { name: 'Resources @IITM', path: '/resources' },
-    { name: 'Programme Structure', path: '/programme-structure' },
+    // { name: 'Programme Structure', path: '/programme-structure' },
   ];
 
   return (
@@ -54,9 +54,9 @@ const Ms_Entrepreneurship = () => {
                   {link.name}
                 </button>
               ))}
-              <span className="cursor-pointer" onClick={() => (window.location.href = '/search')}>
+              {/* <span className="cursor-pointer" onClick={() => (window.location.href = '/search')}>
                 <FaSearch />
-              </span>
+              </span> */}
             </div>
 
             {/* Mobile Menu Toggle */}

@@ -82,24 +82,24 @@ const navLinks = (handleNavClick, activePage) => (
     >
       Selection List July 2025
     </button>
-    <button
+    {/* <button
       onClick={() => handleNavClick('/submit-preferences')}
       className={`hover:scale-[1.02] transition-all ease-in-out ${activePage === '/submit-preferences' ? 'border-b-2 border-white' : ''}`}
     >
       Submit Preferences
-    </button>
+    </button> */}
     <button
       onClick={() => handleNavClick('/resources')}
       className={`hover:scale-[1.02] transition-all ease-in-out ${activePage === '/resources' ? 'border-b-2 border-white' : ''}`}
     >
       Resources @IITM
     </button>
-    <button
+    {/* <button
       onClick={() => handleNavClick('/programme-structure')}
       className={`hover:scale-[1.02] transition-all ease-in-out ${activePage === '/programme-structure' ? 'border-b-2 border-white' : ''}`}
     >
       Programme Structure
-    </button>
+    </button> */}
     <span className="cursor-pointer">
       <FaSearch />
     </span>

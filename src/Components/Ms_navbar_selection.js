@@ -63,7 +63,7 @@ const Ms_Entrepreneurship = () => {
 
           {/* Main Heading */}
           <div className="flex items-center justify-center flex-grow text-center px-4">
-            <h1 className="text-4xl md:text-6xl font-dmsans">To be announced for July 2025</h1>
+            <h1 className="text-4xl md:text-6xl font-dmsans">Admission Results – 2025</h1>
           </div>
         </div>
       </div>
@@ -86,27 +86,27 @@ const navItems = (handleNavClick, activePage, isMobile = false) => (
     >
       Selection List July 2025
     </button>
-    <button
+    {/* <button
       onClick={() => handleNavClick('/submit-preferences')}
       className={`hover:scale-[1.02] transition-all ease-in-out ${activePage === '/submit-preferences' ? 'border-b-2 border-white' : ''}`}
     >
       Submit Preferences
-    </button>
+    </button> */}
     <button
       onClick={() => handleNavClick('/resources')}
       className={`hover:scale-[1.02] transition-all ease-in-out ${activePage === '/resources' ? 'border-b-2 border-white' : ''}`}
     >
       Resources @IITM
     </button>
-    <button
+    {/* <button
       onClick={() => handleNavClick('/programme-structure')}
       className={`hover:scale-[1.02] transition-all ease-in-out ${activePage === '/programme-structure' ? 'border-b-2 border-white' : ''}`}
     >
       Programme Structure
-    </button>
-    <span className="cursor-pointer" onClick={() => handleNavClick('/search')}>
+    </button> */}
+    {/* <span className="cursor-pointer" onClick={() => handleNavClick('/search')}>
       <FaSearch />
-    </span>
+    </span> */}
   </>
 );
 
