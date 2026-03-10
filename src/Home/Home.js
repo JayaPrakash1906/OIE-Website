@@ -11,7 +11,7 @@ import img6 from "../Assets/Home/home_img6.jpg";
 import img7 from "../Assets/Home/home_img7.jpg";
 import img8 from "../Assets/Home/home_img8.jpg";
 import img9 from "../Assets/Home/Director.jpg"; // popup image
-import img10 from "../Assets/Home/prajagopal.jpeg";
+import img10 from "../Assets/Home/Advisor.webp";
 import img11 from "../Assets/Home/nirmaan logo.png";
 import img12 from "../Assets/Home/Nirmaan image.jpg";
 import img13 from "../Assets/Home/CFI Logo.jpg";
@@ -125,9 +125,9 @@ const Home = () => {
               <GrBookmark size={32} className="text-blue-600 mt-8" />
             </div>
             <p className="font-dmsans text-sm ml-0 md:ml-16 mt-8">
-              The ‘I&E’ stack at IIT Madras today boasts of the vibrant ‘tinker laboratory’ and Maker Space in the form of the CFI and the pre-incubator Nirmaan.
+              The School of Innovation & Entrepreneurship provides the academic foundation to IITM’s ‘ I&E Stack’ and will train the coming generation of startup founders who will produce distinctive solutions addressing some of the most pressing industrial and societal challenges. SIE at IIT Madras is one of our key initiatives towards the vision of Viksit Bharat 2047 and is aligned with visionary programmes such as Make in India, Swacch Bharat and NEP.
             </p>
-            <div className="flex items-center space-x-4 md:space-x-10 p-4 md:p-16">
+            <div className="flex items-center space-x-4 md:space-x-10 p-4 md:p-16 mt-6">
               <img className="w-16 h-16 rounded-full object-cover" src={img9} alt="Prof.Kamakoti Veezhinathan" />
               <div>
                 <h2 className="text-blue-600 font-bold text-lg font-dmsans">Prof. Kamakoti Veezhinathan</h2>
@@ -141,14 +141,14 @@ const Home = () => {
               <GrBookmark size={32} className="text-blue-600" />
             </div>
             <p className="font-dmsans text-sm ml-0 md:ml-8 mt-8">
-              Thanks in no small measure to efforts by our Director, Deans, benevolent Alumni Donors, students, faculty mentors and staff, present and past, we managed to find the supporting resources.
+              The School of Innovation and Entrepreneurship (SIE) at IIT Madras is leading its transformation into India’s foremost entrepreneurial university. Our vision is to be among the top 5 global entrepreneurial universities and to propel India as the top 3 deep-tech science based start-up nation. SIE is pioneering an active venture creation model, where research to revenue is supported at every step through our unique innovation stack consisting of tinkering labs, deep-tech centres of excellence (COEs), pre-incubation, lab-to-market education and venture studios.
             </p>
             <div className="flex items-center space-x-4 md:space-x-10 p-4 md:p-16">
-              <img className="w-16 h-16 rounded-full object-cover" style={{ objectPosition: "center right" }} src={img10} alt="Prof.Prabhu Rajagopal" />
+              <img className="w-16 h-16 rounded-full object-cover" style={{ objectPosition: "center top" }} src={img10} alt="Prof.Prabhu Rajagopal" />
               <div>
-                <h2 className="text-blue-600 font-bold text-lg font-dmsans">Prof. Prabhu Rajagopal</h2>
+                <h2 className="text-blue-600 font-bold text-lg font-dmsans">Prof. Satyanarayanan Seshadri</h2>
                 <p className="text-gray-500 font-dmsans">Advisor</p>
-                <p className="text-gray-500 font-dmsans">OIE, IITM</p>
+                <p className="text-gray-500 font-dmsans">SIE, IITM</p>
               </div>
             </div>
           </div>

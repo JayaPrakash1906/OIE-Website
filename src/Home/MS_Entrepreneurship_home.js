@@ -71,7 +71,7 @@ const MS_Entrepreneurship_home = () => {
       </div>
 
       {/* Projects Table */}
-      {/* <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-20 lg:px-32">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-20 lg:px-32">
         <h1 className="text-xl sm:text-2xl font-semibold text-sky-700 mb-4">
           List of Projects Available for 2025 July Admissions
         </h1>
@@ -138,7 +138,7 @@ const MS_Entrepreneurship_home = () => {
           </table>
         </div>
         <div className='mt-4'></div>
-      </div> */}
+      </div>
      
     </div>
   )

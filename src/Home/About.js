@@ -4,7 +4,10 @@ import img1 from "../Assets/About/Tech_Meet.jpg";
 import img2 from '../Assets/About/about middle.jpg';
 import img3 from '../Assets/About/about img.jpg';
 import img4 from "../Assets/About/Nandhini.jpeg";
-import img5 from '../Assets/About/prajagopal.jpg'
+import img5 from '../Assets/About/prajagopal.jpg';
+import img6 from '../Assets/About/profsatyav5.webp';
+import img7 from '../Assets/About/m anand.png';
+import img8 from '../Assets/About/murugaiyan.png';
 import {  FaHotTubPerson, FaPerson, FaPersonDotsFromLine, FaRegLightbulb, FaSeedling } from 'react-icons/fa6';
 import { FaBeer, FaIdeal, FaThinkPeaks } from 'react-icons/fa';
 import Footer from '../Components/Footer';
@@ -37,23 +40,29 @@ const About  = () => {
   </p>
 
   {/* Image Section */}
-  <div className="flex flex-col sm:flex-row justify-center mt-8 space-y-8 sm:space-y-0 sm:space-x-12 items-center">
-    <img
-      src={img1}
-      alt="Image 1"
-      className="w-[200px] sm:w-[250px] h-[300px] sm:h-[350px]"
-    />
-    <img
-      src={img2}
-      alt="Image 2"
-      className="w-[200px] sm:w-[250px] h-[300px] sm:h-[350px] mt-10"
-    />
-    <img
-      src={img3}
-      alt="Image 3"
-      className="w-[200px] sm:w-[250px] h-[300px] sm:h-[350px]"
-    />
-  </div>
+  <div className="flex flex-col sm:flex-row justify-center mt-8 items-center gap-12">
+  {/* Image 1 - up */}
+  <img
+    src={img1}
+    alt="Image 1"
+    className="w-[200px] sm:w-[250px] h-[300px] sm:h-[350px] sm:mt-0"
+  />
+
+  {/* Image 2 - down */}
+  <img
+    src={img2}
+    alt="Image 2"
+    className="w-[200px] sm:w-[250px] h-[300px] sm:h-[350px] sm:mt-32"
+  />
+
+  {/* Image 3 - little up */}
+  <img
+    src={img3}
+    alt="Image 3"
+    className="w-[200px] sm:w-[250px] h-[300px] sm:h-[350px] sm:mt-4"
+  />
+</div>
+
 </div>
 
 
@@ -112,47 +121,92 @@ const About  = () => {
   </div>
 </div>
 
-<div
-  className="mt-16"
-  style={{ backgroundColor: '#faebd4' }}
->
+  <div className="mt-16" style={{ backgroundColor: "#faebd4" }}>
+  {/* MAIN TITLE */}
   <h1 className="text-black text-4xl text-center font-bold font-dmsans pt-8">
     Our Team
   </h1>
-  <div>
-    <div className="flex justify-center mt-16 mb-16">
-      <div className="flex flex-col md:flex-row md:space-x-4 space-y-8 md:space-y-0 mb-8">
-        {/* Card 1 */}
-        <div className="w-full md:w-48">
-          <img
-            src={img5} // Replace with your first image URL
-            alt="Image 1"
-            className="w-full h-[200px] rounded shadow-lg"
-          />
-          <h1 className="text-blue-600 font-dmsans font-semibold text-center mt-2">
-            Prof. Prabhu Rajagopal
-          </h1>
-          <h2 className="font-dmsans text-center">Faculty Advisor</h2>
-        </div>
 
-        {/* Card 2 */}
-        <div className="w-full md:w-48">
-          <img
-            src={img4} // Replace with your second image URL
-            alt="Image 2"
-            className="w-full h-[200px] rounded shadow-md"
-          />
-          <h1 className="text-blue-600 font-dmsans font-semibold text-center mt-2">
-            Ms. K S Nandhini
-          </h1>
-          <h2 className="font-dmsans text-center">Manager</h2>
-        </div>
-      </div>
-    </div>
+
+
+  {/* ================= CORE FACULTY SECTION ================= */}
+  <div className="mt-16">
+   
+{/* ================= FACULTY ================= */}
+<div className="flex justify-center mb-16">
+  <div className="w-48">
+    <img
+      src={img5}
+      alt="Prof. Prabhu Rajagopal"
+      className="w-full h-[200px] rounded shadow-lg"
+    />
+    <h1 className="text-blue-600 font-dmsans font-semibold text-center mt-2">
+      Prof. Prabhu Rajagopal
+    </h1>
+    <h2 className="font-dmsans text-center">Core Faculty</h2>
   </div>
+</div>
 
+    {/* ================= TEAM ================= */}
+<div className="flex justify-center mb-16">
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+    
+    {/* Member 1 */}
+    <div className="w-48">
+      <img
+        src={img6}
+        alt="Team Member"
+        className="w-full h-[200px] rounded shadow-lg"
+      />
+      <h1 className="text-blue-600 font-dmsans font-semibold text-center mt-2">
+        Prof. Satyanarayanan Seshadri
+      </h1>
+      <h2 className="font-dmsans text-center">Head-SIE</h2>
+    </div>
 
-                </div>
+    {/* Member 2 */}
+    <div className="w-48">
+      <img
+        src={img7}
+        alt="Team Member"
+        className="w-full h-[200px] rounded shadow-lg"
+      />
+      <h1 className="text-blue-600 font-dmsans font-semibold text-center mt-2">
+        Prof. Manish Anand
+      </h1>
+      <h2 className="font-dmsans text-center">Advisor-CFI</h2>
+    </div>
+
+    {/* Member 3 */}
+    <div className="w-48">
+      <img
+        src={img8}
+        alt="Team Member"
+        className="w-full h-[200px] rounded shadow-lg"
+      />
+      <h1 className="text-blue-600 font-dmsans font-semibold text-center mt-2">
+        Prof. Murugaiyan Amirthalingam
+      </h1>
+      <h2 className="font-dmsans text-center">Advisor-Nirmaan & E-Cell</h2>
+    </div>
+
+    {/* Member 4 */}
+    <div className="w-48 mb-16">
+      <img
+        src={img4}
+        alt="Team Member"
+        className="w-full h-[200px] rounded shadow-lg"
+      />
+      <h1 className="text-blue-600 font-dmsans font-semibold text-center mt-2">
+        K S Nandhini 
+      </h1>
+      <h2 className="font-dmsans text-center">Manager - SIE</h2>
+    </div>
+
+  </div>
+</div>
+  </div>
+</div>
               <Footer/>
       </div>
         
