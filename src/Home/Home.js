@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react";
 import Navbar from "../Components/Navbar";
 import { GrBookmark } from "react-icons/gr";
 import Footer from "../Components/Footer";
-import img1 from "../Assets/Home/home_img1.jpg";
-import img2 from "../Assets/Home/home_img2.jpg";
-import img3 from "../Assets/Home/home_img3.jpg";
-import img4 from "../Assets/Home/home_img4.jpg";
-import img5 from "../Assets/Home/home_img5.jpg";
-import img6 from "../Assets/Home/home_img6.jpg";
-import img7 from "../Assets/Home/home_img7.jpg";
-import img8 from "../Assets/Home/home_img8.jpg";
+import img1 from "../Assets/Home/agnirath.jpg";
+import img2 from "../Assets/Home/sie.png";
+import img3 from "../Assets/Home/home3.jpg";
+import img4 from "../Assets/Home/hyperloop.jpg";
+import img5 from "../Assets/Home/openhouse.jpg";
+import img6 from "../Assets/Home/Abhuday.jpg";
+import img7 from "../Assets/Home/krishaka.jpg";
+import img8 from "../Assets/Home/sukoon.jpg";
 import img9 from "../Assets/Home/Director.jpg"; // popup image
 import img10 from "../Assets/Home/Advisor.webp";
 import img11 from "../Assets/Home/nirmaan logo.png";
@@ -79,7 +79,7 @@ const Home = () => {
             <img src={img7} alt="img7" className="w-full max-w-[180px] md:max-w-[210px] h-[120px] sm:h-[150px] md:h-[190px] object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105" />
           </div>
           <div className="flex justify-center items-start">
-            <img src={img8} alt="img8" className="w-full max-w-[150px] sm:max-w-[180px] md:max-w-[200px] object-cover h-[250px] sm:h-[300px] md:h-[360px] rounded-xl shadow-md mt-10 sm:mt-16 md:mt-32 transition-transform duration-300 hover:scale-105" />
+            <img src={img8} alt="img8" className="w-full max-w-[150px] sm:max-w-[180px] md:max-w-[200px] object-cover object-centre h-[250px] sm:h-[300px] md:h-[360px] rounded-xl shadow-md mt-10 sm:mt-16 md:mt-32 transition-transform duration-300 hover:scale-105" />
           </div>
         </div>
       </div>
@@ -147,8 +147,8 @@ const Home = () => {
               <img className="w-16 h-16 rounded-full object-cover" style={{ objectPosition: "center top" }} src={img10} alt="Prof.Prabhu Rajagopal" />
               <div>
                 <h2 className="text-blue-600 font-bold text-lg font-dmsans">Prof. Satyanarayanan Seshadri</h2>
-                <p className="text-gray-500 font-dmsans">Advisor</p>
-                <p className="text-gray-500 font-dmsans">SIE, IITM</p>
+                <p className="text-gray-500 font-dmsans">Head</p>
+                <p className="text-gray-500 font-dmsans">School of Innovation & Entrepreneurship, IITM</p>
               </div>
             </div>
           </div>

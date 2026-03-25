@@ -17,8 +17,35 @@ import img13 from '../Assets/News/news13.jpg';
 import img14 from '../Assets/News/news14.jpg';
 import img15 from '../Assets/News/news15.png';
 import img16 from '../Assets/News/news16.jpg';
+import img17 from '../Assets/News/news17.jpg';
+import img18 from '../Assets/News/news18.jpg';
+import img19 from '../Assets/News/news19.jpg';
 const posts = [
 
+  {
+    id: 1,
+    title: "Delta Expo 2026: Showcasing Innovation at IIT Madras",
+    date: "14th March , 2026",
+    image: img19,
+    content: "From bold ideas to real-world impact, Delta Expo 2026 is a celebration of innovation at IIT Madras, bringing together cutting-edge student startups and breakthrough technologies. Hosted by the School for Innovation and Entrepreneurship (SIE), IIT Madras, the event was inaugurated by the Hon’ble Governor of Tamil Nadu, Rajendra Vishwanath Arlekar.",
+    link:"https://www.linkedin.com/posts/from-bold-ideas-to-real-world-impactdelta-ugcPost-7439904929886031872-hKu_?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFikn4B6jA0Ct1Y84TowFZRR2JHg75s9fg"
+  },
+  {
+    id: 1,
+    title: "New Advisors for NIRMAAN & CFI, IIT Madras",
+    date: "21st November , 2025",
+    image: img18,
+    content: "Prof. Murugaiyan Amirthalingam takes charge as Advisor of NIRMAAN and Prof. Manish Anand as Advisor of CFI, ushering in a new phase of leadership to further strengthen innovation and entrepreneurship at IIT Madras.",
+    link:""
+  },
+  {
+    id: 1,
+    title: "Leadership Transition at SIE, IIT Madras",
+    date: "2nd November 2025",
+    image: img17,
+    content: "Prof. Satyanarayanan Seshadri assumes charge as Head of SIE, IIT Madras, succeeding Prof. Prabhu Rajagopal and building on his remarkable contributions to strengthening the innovation and entrepreneurship ecosystem.",
+    link:"https://www.linkedin.com/posts/school-of-innovation-entrepreneurship_we-are-delighted-to-welcome-prof-satyanarayanan-activity-7393541475063689217-VuD9?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFikn4B6jA0Ct1Y84TowFZRR2JHg75s9fg"
+  },
   {
     id: 1,
     title: "Research Conclave 2025",
